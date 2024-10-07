@@ -1,0 +1,837 @@
+{
+  "PhoneCases": [
+    {
+      "name": "Elegant Black Glass Case",
+      "price": 499,
+      "discount": "10%",
+      "imgURL": "https://example.com/elegant-black-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "Apple": [
+          "iPhone 14",
+          "iPhone 13",
+          "iPhone 12",
+          "iPhone 11",
+          "iPhone XR",
+          "iPhone SE",
+          "iPhone X",
+          "iPhone 8",
+          "iPhone 7",
+          "iPhone 6"
+        ],
+        "Google": [
+          "Pixel 7",
+          "Pixel 6",
+          "Pixel 6a",
+          "Pixel 5",
+          "Pixel 4a",
+          "Pixel 4",
+          "Pixel 3a",
+          "Pixel 3",
+          "Pixel 2",
+          "Pixel"
+        ]
+      }
+    },
+    {
+      "name": "Crystal Clear Glass Case",
+      "price": 349,
+      "discount": "5%",
+      "imgURL": "https://example.com/crystal-clear-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "OnePlus": [
+          "OnePlus 11",
+          "OnePlus 10 Pro",
+          "OnePlus 9",
+          "OnePlus 8T",
+          "OnePlus 8",
+          "OnePlus 7T",
+          "OnePlus 7",
+          "OnePlus 6T",
+          "OnePlus 6",
+          "OnePlus 5T"
+        ],
+        "Realme": [
+          "Realme GT Neo",
+          "Realme 10 Pro",
+          "Realme 9 Pro",
+          "Realme 8",
+          "Realme 7",
+          "Realme Narzo 50",
+          "Realme Narzo 30",
+          "Realme 6 Pro",
+          "Realme 6",
+          "Realme 5 Pro"
+        ]
+      }
+    },
+    {
+      "name": "Floral Pattern Glass Case",
+      "price": 699,
+      "discount": "15%",
+      "imgURL": "https://example.com/floral-pattern-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "Apple": [
+          "iPhone 14 Pro Max",
+          "iPhone 14 Pro",
+          "iPhone 13 Pro Max",
+          "iPhone 12 Pro",
+          "iPhone 11 Pro",
+          "iPhone XS",
+          "iPhone 8 Plus",
+          "iPhone 7 Plus",
+          "iPhone SE",
+          "iPhone 6 Plus"
+        ],
+        "Vivo": [
+          "Vivo X90",
+          "Vivo X80",
+          "Vivo V25",
+          "Vivo V23",
+          "Vivo Y75",
+          "Vivo Y53",
+          "Vivo X70",
+          "Vivo Y20",
+          "Vivo Y12",
+          "Vivo X50"
+        ]
+      }
+    },
+    {
+      "name": "Matte Finish Glass Case",
+      "price": 399,
+      "discount": "8%",
+      "imgURL": "https://example.com/matte-finish-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "Motorola": [
+          "Moto G200",
+          "Moto Edge 30",
+          "Moto G100",
+          "Moto G60",
+          "Moto G50",
+          "Moto G40",
+          "Moto G30",
+          "Moto Edge 20",
+          "Moto G10",
+          "Moto E7"
+        ],
+        "Google": [
+          "Pixel 6a",
+          "Pixel 5",
+          "Pixel 4a",
+          "Pixel 4 XL",
+          "Pixel 3a XL",
+          "Pixel 3 XL",
+          "Pixel 2 XL",
+          "Pixel XL",
+          "Pixel C",
+          "Pixel"
+        ]
+      }
+    },
+    {
+      "name": "Geometric Design Glass Case",
+      "price": 599,
+      "discount": "12%",
+      "imgURL": "https://example.com/geometric-design-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "Samsung": [
+          "Galaxy S23",
+          "Galaxy S22",
+          "Galaxy S21",
+          "Galaxy Note 20",
+          "Galaxy Z Fold 4",
+          "Galaxy Z Flip 4",
+          "Galaxy A73",
+          "Galaxy A53",
+          "Galaxy M52",
+          "Galaxy A12"
+        ],
+        "Realme": [
+          "Realme 9",
+          "Realme Narzo 50",
+          "Realme 8 Pro",
+          "Realme 7 Pro",
+          "Realme X7 Max",
+          "Realme 6i",
+          "Realme 5i",
+          "Realme 3 Pro",
+          "Realme 2 Pro",
+          "Realme C11"
+        ]
+      }
+    },
+    {
+      "name": "Luxury Gold Trim Glass Case",
+      "price": 999,
+      "discount": "20%",
+      "imgURL": "https://example.com/luxury-gold-trim-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "OnePlus": [
+          "OnePlus 10T",
+          "OnePlus 9 Pro",
+          "OnePlus 8 Pro",
+          "OnePlus 7 Pro",
+          "OnePlus 6",
+          "OnePlus 6T",
+          "OnePlus Nord 2",
+          "OnePlus Nord CE 2",
+          "OnePlus Nord",
+          "OnePlus 5"
+        ],
+        "Samsung": [
+          "Galaxy S21 Ultra",
+          "Galaxy S21+",
+          "Galaxy S20 Ultra",
+          "Galaxy Note 10",
+          "Galaxy Note 9",
+          "Galaxy A72",
+          "Galaxy A71",
+          "Galaxy M31",
+          "Galaxy M21",
+          "Galaxy J7"
+        ]
+      }
+    },
+    {
+      "name": "Gradient Color Glass Case",
+      "price": 299,
+      "discount": "5%",
+      "imgURL": "https://example.com/gradient-color-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "Apple": [
+          "iPhone 12",
+          "iPhone 12 Mini",
+          "iPhone 11",
+          "iPhone 11 Pro",
+          "iPhone X",
+          "iPhone XS",
+          "iPhone 8",
+          "iPhone 8 Plus",
+          "iPhone 7",
+          "iPhone 6"
+        ],
+        "Vivo": [
+          "Vivo X60",
+          "Vivo V21",
+          "Vivo Y50",
+          "Vivo Y20",
+          "Vivo Y12s",
+          "Vivo V15",
+          "Vivo S1",
+          "Vivo V9",
+          "Vivo X21",
+          "Vivo Y11"
+        ]
+      }
+    },
+    {
+      "name": "Abstract Art Glass Case",
+      "price": 450,
+      "discount": "10%",
+      "imgURL": "https://example.com/abstract-art-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "Oppo": [
+          "Oppo Reno 8",
+          "Oppo Reno 7",
+          "Oppo F21 Pro",
+          "Oppo A96",
+          "Oppo A74",
+          "Oppo A53",
+          "Oppo Find X3",
+          "Oppo F19",
+          "Oppo F17",
+          "Oppo K3"
+        ],
+        "Motorola": [
+          "Moto G100",
+          "Moto Edge 30",
+          "Moto G60",
+          "Moto G50",
+          "Moto G40",
+          "Moto G30",
+          "Moto Edge 20",
+          "Moto G10",
+          "Moto E7",
+          "Moto E6s"
+        ]
+      }
+    },
+    {
+      "name": "Marble Finish Glass Case",
+      "price": 799,
+      "discount": "18%",
+      "imgURL": "https://example.com/marble-finish-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "Google": [
+          "Pixel 7 Pro",
+          "Pixel 6 Pro",
+          "Pixel 5a",
+          "Pixel 4a",
+          "Pixel 4 XL",
+          "Pixel 3a XL",
+          "Pixel 3 XL",
+          "Pixel 2 XL",
+          "Pixel XL",
+          "Pixel"
+        ],
+        "Oppo": [
+          "Oppo F19",
+          "Oppo F17 Pro",
+          "Oppo Reno 5",
+          "Oppo A93",
+          "Oppo A73",
+          "Oppo F11 Pro",
+          "Oppo A53",
+          "Oppo Reno 10",
+          "Oppo Find X",
+          "Oppo A5s"
+        ]
+      }
+    },
+    {
+      "name": "Minimalist Design Glass Case",
+      "price": 350,
+      "discount": "6%",
+      "imgURL": "https://example.com/minimalist-design-glass-case.jpg",
+      "type": "Glass Case",
+      "availableIn": {
+        "Nothing": ["Nothing Phone (1)", "Nothing Phone (2)"],
+        "OnePlus": [
+          "OnePlus 10 Pro",
+          "OnePlus 9R",
+          "OnePlus 8T",
+          "OnePlus Nord CE 5G",
+          "OnePlus 7T",
+          "OnePlus 7",
+          "OnePlus 6T",
+          "OnePlus 6",
+          "OnePlus 5T",
+          "OnePlus 3"
+        ]
+      }
+    },
+    {
+      "name": "Ultra Slim Clear Case",
+      "price": 299,
+      "discount": "5%",
+      "imgURL": "https://example.com/ultra-slim-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "Apple": [
+          "iPhone 14",
+          "iPhone 13",
+          "iPhone 12",
+          "iPhone 11",
+          "iPhone XR",
+          "iPhone SE",
+          "iPhone X",
+          "iPhone 8",
+          "iPhone 7",
+          "iPhone 6"
+        ],
+        "Google": [
+          "Pixel 7",
+          "Pixel 6",
+          "Pixel 6a",
+          "Pixel 5",
+          "Pixel 4a",
+          "Pixel 4",
+          "Pixel 3a",
+          "Pixel 3",
+          "Pixel 2",
+          "Pixel"
+        ]
+      }
+    },
+    {
+      "name": "Crystal Shield Clear Case",
+      "price": 449,
+      "discount": "10%",
+      "imgURL": "https://example.com/crystal-shield-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "OnePlus": [
+          "OnePlus 11",
+          "OnePlus 10 Pro",
+          "OnePlus 9",
+          "OnePlus 8T",
+          "OnePlus 8",
+          "OnePlus 7T",
+          "OnePlus 7",
+          "OnePlus 6T",
+          "OnePlus 6",
+          "OnePlus 5T"
+        ],
+        "Realme": [
+          "Realme 9 Pro",
+          "Realme 8",
+          "Realme 7",
+          "Realme Narzo 50",
+          "Realme Narzo 30",
+          "Realme Narzo 20",
+          "Realme 6 Pro",
+          "Realme 5 Pro",
+          "Realme C11",
+          "Realme X3"
+        ]
+      }
+    },
+    {
+      "name": "Air Armor Clear Case",
+      "price": 399,
+      "discount": "8%",
+      "imgURL": "https://example.com/air-armor-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "Samsung": [
+          "Galaxy S23",
+          "Galaxy S22",
+          "Galaxy S21",
+          "Galaxy A73",
+          "Galaxy A53",
+          "Galaxy A32",
+          "Galaxy M52",
+          "Galaxy A12",
+          "Galaxy M12",
+          "Galaxy J7"
+        ],
+        "Motorola": [
+          "Moto G200",
+          "Moto Edge 30",
+          "Moto G100",
+          "Moto G60",
+          "Moto G50",
+          "Moto G40",
+          "Moto G30",
+          "Moto Edge 20",
+          "Moto G10",
+          "Moto E7"
+        ]
+      }
+    },
+    {
+      "name": "Shockproof Clear Case",
+      "price": 599,
+      "discount": "12%",
+      "imgURL": "https://example.com/shockproof-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "Apple": [
+          "iPhone 14 Pro Max",
+          "iPhone 14 Pro",
+          "iPhone 13 Pro Max",
+          "iPhone 12 Pro",
+          "iPhone 11 Pro",
+          "iPhone XS",
+          "iPhone 8 Plus",
+          "iPhone 7 Plus",
+          "iPhone SE",
+          "iPhone 6 Plus"
+        ],
+        "Vivo": [
+          "Vivo X90",
+          "Vivo X80",
+          "Vivo V25",
+          "Vivo V23",
+          "Vivo Y75",
+          "Vivo Y53",
+          "Vivo X70",
+          "Vivo Y20",
+          "Vivo Y12",
+          "Vivo X50"
+        ]
+      }
+    },
+    {
+      "name": "Minimalist Clear Case",
+      "price": 349,
+      "discount": "6%",
+      "imgURL": "https://example.com/minimalist-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "Oppo": [
+          "Oppo Reno 8",
+          "Oppo Reno 7",
+          "Oppo F21 Pro",
+          "Oppo A96",
+          "Oppo A74",
+          "Oppo A53",
+          "Oppo Find X3",
+          "Oppo F19",
+          "Oppo F17",
+          "Oppo K3"
+        ],
+        "Realme": [
+          "Realme 9 Pro",
+          "Realme 8",
+          "Realme 7",
+          "Realme Narzo 50",
+          "Realme Narzo 30",
+          "Realme Narzo 20",
+          "Realme 6 Pro",
+          "Realme 5 Pro",
+          "Realme C11",
+          "Realme X3"
+        ]
+      }
+    },
+    {
+      "name": "Scratch Resistant Clear Case",
+      "price": 549,
+      "discount": "10%",
+      "imgURL": "https://example.com/scratch-resistant-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "Google": [
+          "Pixel 7 Pro",
+          "Pixel 6 Pro",
+          "Pixel 5a",
+          "Pixel 4a",
+          "Pixel 4 XL",
+          "Pixel 3a XL",
+          "Pixel 3 XL",
+          "Pixel 2 XL",
+          "Pixel XL",
+          "Pixel"
+        ],
+        "Vivo": [
+          "Vivo V21",
+          "Vivo Y50",
+          "Vivo Y20",
+          "Vivo Y12s",
+          "Vivo V15",
+          "Vivo S1",
+          "Vivo V9",
+          "Vivo X21",
+          "Vivo Y11",
+          "Vivo Y5"
+        ]
+      }
+    },
+    {
+      "name": "Flexible Soft Clear Case",
+      "price": 299,
+      "discount": "4%",
+      "imgURL": "https://example.com/flexible-soft-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "OnePlus": [
+          "OnePlus 10 Pro",
+          "OnePlus 9",
+          "OnePlus 8T",
+          "OnePlus 8",
+          "OnePlus 7T",
+          "OnePlus 7",
+          "OnePlus 6T",
+          "OnePlus 6",
+          "OnePlus 5T",
+          "OnePlus 3"
+        ],
+        "Nothing": ["Nothing Phone (1)", "Nothing Phone (2)"]
+      }
+    },
+    {
+      "name": "Diamond Crystal Clear Case",
+      "price": 699,
+      "discount": "15%",
+      "imgURL": "https://example.com/diamond-crystal-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "Samsung": [
+          "Galaxy S21",
+          "Galaxy Note 20",
+          "Galaxy Z Fold 4",
+          "Galaxy Z Flip 4",
+          "Galaxy A73",
+          "Galaxy A53",
+          "Galaxy M52",
+          "Galaxy A12",
+          "Galaxy M12",
+          "Galaxy J7"
+        ],
+        "Motorola": [
+          "Moto G200",
+          "Moto Edge 30",
+          "Moto G100",
+          "Moto G60",
+          "Moto G50",
+          "Moto G40",
+          "Moto G30",
+          "Moto Edge 20",
+          "Moto G10",
+          "Moto E7"
+        ]
+      }
+    },
+    {
+      "name": "Anti-Yellowing Clear Case",
+      "price": 399,
+      "discount": "7%",
+      "imgURL": "https://example.com/anti-yellowing-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "Google": [
+          "Pixel 6a",
+          "Pixel 5",
+          "Pixel 4a",
+          "Pixel 4 XL",
+          "Pixel 3a XL",
+          "Pixel 3 XL",
+          "Pixel 2 XL",
+          "Pixel XL",
+          "Pixel C",
+          "Pixel"
+        ],
+        "Oppo": [
+          "Oppo F19",
+          "Oppo F17 Pro",
+          "Oppo Reno 5",
+          "Oppo A93",
+          "Oppo A73",
+          "Oppo F11 Pro",
+          "Oppo A53",
+          "Oppo Reno 10",
+          "Oppo Find X",
+          "Oppo A5s"
+        ]
+      }
+    },
+    {
+      "name": "MagSafe Compatible Clear Case",
+      "price": 799,
+      "discount": "18%",
+      "imgURL": "https://example.com/magsafe-compatible-clear-case.jpg",
+      "type": "Clear Case",
+      "availableIn": {
+        "Apple": [
+          "iPhone 14",
+          "iPhone 13",
+          "iPhone 12",
+          "iPhone 11",
+          "iPhone XR",
+          "iPhone SE",
+          "iPhone X",
+          "iPhone 8",
+          "iPhone 7",
+          "iPhone 6"
+        ],
+        "Vivo": [
+          "Vivo X60",
+          "Vivo V21",
+          "Vivo Y50",
+          "Vivo Y20",
+          "Vivo Y12s",
+          "Vivo V15",
+          "Vivo S1",
+          "Vivo V9",
+          "Vivo X21",
+          "Vivo Y11"
+        ]
+      }
+    },
+    {
+      "name": "Smooth Touch Silicon Case",
+      "price": 349,
+      "discount": "6%",
+      "imgURL": "https://example.com/smooth-touch-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "Apple": [
+          "iPhone 14",
+          "iPhone 13",
+          "iPhone 12",
+          "iPhone 11",
+          "iPhone XR",
+          "iPhone SE",
+          "iPhone 8",
+          "iPhone 7"
+        ],
+        "Google": ["Pixel 7", "Pixel 6", "Pixel 5", "Pixel 4", "Pixel 3a"]
+      }
+    },
+    {
+      "name": "Shock Absorbent Silicon Case",
+      "price": 499,
+      "discount": "10%",
+      "imgURL": "https://example.com/shock-absorbent-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "Samsung": [
+          "Galaxy S23",
+          "Galaxy S22",
+          "Galaxy S21",
+          "Galaxy A53",
+          "Galaxy M52",
+          "Galaxy J7"
+        ],
+        "OnePlus": [
+          "OnePlus 11",
+          "OnePlus 10 Pro",
+          "OnePlus 9",
+          "OnePlus 8",
+          "OnePlus 7T"
+        ]
+      }
+    },
+    {
+      "name": "Matte Finish Silicon Case",
+      "price": 399,
+      "discount": "8%",
+      "imgURL": "https://example.com/matte-finish-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "Vivo": ["Vivo X80", "Vivo V25", "Vivo V23", "Vivo Y75", "Vivo X70"],
+        "Oppo": [
+          "Oppo Reno 8",
+          "Oppo Reno 7",
+          "Oppo F21 Pro",
+          "Oppo A96",
+          "Oppo A74"
+        ]
+      }
+    },
+    {
+      "name": "Anti-Slip Silicon Case",
+      "price": 329,
+      "discount": "5%",
+      "imgURL": "https://example.com/anti-slip-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "Apple": [
+          "iPhone 14 Pro",
+          "iPhone 13 Pro",
+          "iPhone 12 Pro",
+          "iPhone 11 Pro",
+          "iPhone XS"
+        ],
+        "Google": ["Pixel 7 Pro", "Pixel 6 Pro", "Pixel 5", "Pixel 4a"]
+      }
+    },
+    {
+      "name": "Silk Touch Silicon Case",
+      "price": 499,
+      "discount": "12%",
+      "imgURL": "https://example.com/silk-touch-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "Samsung": [
+          "Galaxy A73",
+          "Galaxy A53",
+          "Galaxy S21",
+          "Galaxy Note 20",
+          "Galaxy Z Flip 4"
+        ],
+        "Motorola": [
+          "Moto G200",
+          "Moto Edge 30",
+          "Moto G100",
+          "Moto G50",
+          "Moto G30"
+        ]
+      }
+    },
+    {
+      "name": "Waterproof Silicon Case",
+      "price": 599,
+      "discount": "15%",
+      "imgURL": "https://example.com/waterproof-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "OnePlus": [
+          "OnePlus 10 Pro",
+          "OnePlus 9",
+          "OnePlus 8T",
+          "OnePlus 7T",
+          "OnePlus 6"
+        ],
+        "Google": ["Pixel 6", "Pixel 5a", "Pixel 4a", "Pixel 3a"]
+      }
+    },
+    {
+      "name": "Ultra Thin Silicon Case",
+      "price": 299,
+      "discount": "4%",
+      "imgURL": "https://example.com/ultra-thin-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "Oppo": [
+          "Oppo F19",
+          "Oppo F17 Pro",
+          "Oppo Reno 5",
+          "Oppo A93",
+          "Oppo A73"
+        ],
+        "Vivo": ["Vivo X60", "Vivo V21", "Vivo Y50", "Vivo Y12", "Vivo V15"]
+      }
+    },
+    {
+      "name": "Drop Resistant Silicon Case",
+      "price": 549,
+      "discount": "9%",
+      "imgURL": "https://example.com/drop-resistant-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "Samsung": [
+          "Galaxy S21",
+          "Galaxy S22",
+          "Galaxy Z Fold 4",
+          "Galaxy Z Flip 4"
+        ],
+        "Motorola": ["Moto G60", "Moto G30", "Moto G10", "Moto E7"]
+      }
+    },
+    {
+      "name": "Soft Gel Silicon Case",
+      "price": 399,
+      "discount": "7%",
+      "imgURL": "https://example.com/soft-gel-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "OnePlus": [
+          "OnePlus 9 Pro",
+          "OnePlus 8 Pro",
+          "OnePlus 7 Pro",
+          "OnePlus 6T"
+        ],
+        "Apple": ["iPhone 13", "iPhone 12", "iPhone SE", "iPhone XR"]
+      }
+    },
+    {
+      "name": "Textured Grip Silicon Case",
+      "price": 449,
+      "discount": "10%",
+      "imgURL": "https://example.com/textured-grip-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "Google": ["Pixel 6", "Pixel 5", "Pixel 4", "Pixel 3a", "Pixel 2 XL"],
+        "Samsung": ["Galaxy A73", "Galaxy A53", "Galaxy M52"]
+      }
+    },
+    {
+      "name": "MagSafe Silicon Case",
+      "price": 799,
+      "discount": "18%",
+      "imgURL": "https://example.com/magsafe-silicon-case.jpg",
+      "type": "Silicon Case",
+      "availableIn": {
+        "Apple": [
+          "iPhone 14",
+          "iPhone 13",
+          "iPhone 12",
+          "iPhone 11",
+          "iPhone SE"
+        ],
+        "Vivo": ["Vivo V25", "Vivo V23", "Vivo Y75", "Vivo X70"]
+      }
+    }
+  ]
+}
