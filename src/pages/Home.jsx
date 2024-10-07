@@ -41,7 +41,7 @@ const Home = () => {
                 <Grid container direction="column" alignItems={"center"}>
                   <Grid item>
                     <Link to={`/product-category/${x.type}`}>
-                    <img src={x.image} />
+                      <img src={x.image} />
                     </Link>
                   </Grid>
                   <Grid item>
