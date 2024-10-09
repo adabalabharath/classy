@@ -29,9 +29,9 @@ const About = () => {
           <Divider
             sx={{ width: "30px", borderWidth: "2px", borderRadius: 1 }}
           />
-          {usefulLinks.map((x) => {
+          {usefulLinks.map((x,index) => {
             return (
-              <Grid item xs={3}>
+              <Grid item xs={3} key={index}>
                 <Typography variant="subtitle2">{x}</Typography>
                 <Divider sx={{ width: "300px" }} />
               </Grid>
@@ -39,7 +39,7 @@ const About = () => {
           })}
         </Grid>
       </Grid>
-      <Grid item>
+      <Grid item >
         <Grid container direction={"column"} spacing={2}>
           <Typography variant="subtitle2">Account</Typography>
           <Divider

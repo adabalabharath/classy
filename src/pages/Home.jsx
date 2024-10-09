@@ -28,24 +28,25 @@ const Home = () => {
         justifyContent={"space-between"}
         alignItems={"center"}
         rowSpacing={4}
+        m={1}
         px={6}
         py={3}
       >
         <Grid item xs={12}>
-          <Divider sx={{ fontSize: "20px" }}>Phone cases</Divider>
+          <Divider sx={{ fontWeight: "bold", fontSize: "20px" }}>Phone cases</Divider>
         </Grid>
         {type.map((x) => {
           return (
             <>
               <Grid item xs={4}>
-                <Grid container direction="column" alignItems={"center"}>
+                <Grid container direction="column" alignItems={"center"} >
                   <Grid item>
                     <Link to={`/product-category/${x.type}`}>
                       <img src={x.image} />
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Typography sx={{ fontWeight: "bold" }}>
+                    <Typography sx={{ fontWeight: "bold" ,fontStyle:'normal'}}>
                       {x.type}
                     </Typography>
                   </Grid>
@@ -55,7 +56,7 @@ const Home = () => {
           );
         })}
         <Grid item>
-          <Typography sx={{ lineHeight: 2 }} variant="subtitle2">
+          <Typography sx={{ lineHeight: 2,color:'skyblue' }} variant="subtitle2">
             At classy, we offer a wide variety of mobile cases and covers for
             over 450+ different mobile devices. Whether you have the latest
             iPhone, Samsung, or any other smartphone brand, we’ve got you
@@ -85,6 +86,7 @@ const Home = () => {
             wide range of mobile cases and covers.
           </Typography>
         </Grid>
+         
       </Grid>
     </>
   );

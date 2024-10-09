@@ -1,0 +1,1814 @@
+{
+  "brands": [
+    {
+      "brand": "Apple",
+      "models": [
+        "iPhone 14",
+        "iPhone 14 Pro",
+        "iPhone 14 Pro Max",
+        "iPhone 13",
+        "iPhone 13 Pro",
+        "iPhone 13 Pro Max",
+        "iPhone 12",
+        "iPhone 12 Pro",
+        "iPhone 12 Pro Max",
+        "iPhone SE"
+      ],
+      "glass_cases": [
+        {
+          "name": "Spiderman logo",
+          "price": "25.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/04/SCP-115-gliphone14pro-35-1-300x300.jpg"
+        },
+        {
+          "name": "Astronaut on Moon",
+          "price": "27.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/09/SCP-115-gliphone14promax-36-1-300x300.jpg"
+        },
+        {
+          "name": "Marvel Comics",
+          "price": "29.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/04/SCP-115-gliphone14pro-22-1-300x300.jpg"
+        },
+        {
+          "name": "Batman the dark knight",
+          "price": "30.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/04/SCP-115-gliphone14pro-3-1-300x300.jpg"
+        },
+        {
+          "name": "Manga Anime",
+          "price": "28.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-gliphone14promax-18-300x300.jpg"
+        },
+        {
+          "name": "xbox gaming",
+          "price": "24.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/50-40-300x300.jpg"
+        },
+        {
+          "name": "Naruto eyes",
+          "price": "26.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-gliphone14promax-25-300x300.jpg"
+        },
+        {
+          "name": "virat kohli",
+          "price": "31.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/49-40-300x300.jpg"
+        },
+        {
+          "name": "Messi",
+          "price": "32.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/27-51-300x300.jpg"
+        },
+        {
+          "name": "kungfu panda",
+          "price": "30.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/24-51-300x300.jpg"
+        }
+      ],
+      "clear_cases": [
+        {
+          "name": "Apple Clear Case 1",
+          "price": "15.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/28-17-300x300.jpg"
+        },
+        {
+          "name": "Apple Clear Case 2",
+          "price": "16.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/34-17-300x300.jpg"
+        },
+        {
+          "name": "Apple Clear Case 3",
+          "price": "18.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/22-12-300x300.jpg"
+        },
+        {
+          "name": "Apple Clear Case 4",
+          "price": "20.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/27-18-300x300.jpg"
+        },
+        {
+          "name": "Apple Clear Case 5",
+          "price": "19.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/43-16-300x300.jpg"
+        },
+        {
+          "name": "Apple Clear Case 6",
+          "price": "17.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/26-18-300x300.jpg"
+        },
+        {
+          "name": "Apple Clear Case 7",
+          "price": "21.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/38-16-300x300.jpg"
+        },
+        {
+          "name": "Apple Clear Case 8",
+          "price": "22.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/30-17-300x300.jpg"
+        },
+        {
+          "name": "Apple Clear Case 9",
+          "price": "23.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/31-6-300x300.jpg"
+        },
+        {
+          "name": "Apple Clear Case 10",
+          "price": "24.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/13-19-300x300.jpg"
+        }
+      ],
+      "silicon_cases": [
+        {
+          "name": "Apple Silicon Case 1",
+          "price": "10.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/10/SCP-115-siliconeiphone14pro-22-1-300x300.jpg"
+        },
+        {
+          "name": "Apple Silicon Case 2",
+          "price": "12.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/10/SCP-115-siliconeiphone14pro-5-1-300x300.jpg"
+        },
+        {
+          "name": "Apple Silicon Case 3",
+          "price": "11.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeiphone14prom-92-300x300.jpg"
+        },
+        {
+          "name": "Apple Silicon Case 4",
+          "price": "13.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeiphone14prom-85-300x300.jpg"
+        },
+        {
+          "name": "Apple Silicon Case 5",
+          "price": "14.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeiphone14prom-86-300x300.jpg"
+        },
+        {
+          "name": "Apple Silicon Case 6",
+          "price": "15.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeiphone14prom-82-300x300.jpg"
+        },
+        {
+          "name": "Apple Silicon Case 7",
+          "price": "16.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeiphone14prom-83-300x300.jpg"
+        },
+        {
+          "name": "Apple Silicon Case 8",
+          "price": "17.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeiphone14prom-80-300x300.jpg"
+        },
+        {
+          "name": "Apple Silicon Case 9",
+          "price": "18.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeiphone14prom-91-300x300.jpg"
+        },
+        {
+          "name": "Apple Silicon Case 10",
+          "price": "19.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeiphone14prom-94-300x300.jpg"
+        }
+      ]
+    },
+    {
+      "brand": "Motorola",
+      "models": [
+        "Moto G Power",
+        "Moto G Stylus",
+        "Moto Edge",
+        "Moto G Play",
+        "Moto One Vision",
+        "Moto E",
+        "Moto Z4",
+        "Moto G Fast",
+        "Moto G 5G",
+        "Moto Razr"
+      ],
+      "glass_cases": [
+        {
+          "name": "White Blue Marbel",
+          "price": "22.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/01/SCP-115-glmotorolaedge30-104-1-300x300.jpg"
+        },
+        {
+          "name": "Multi color car",
+          "price": "24.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/01/SCP-115-glmotorolaedge30-69-1-300x300.jpg"
+        },
+        {
+          "name": "Samurai Dragon",
+          "price": "26.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glmotorolaedge30-32-300x300.jpg"
+        },
+        {
+          "name": "Eagle",
+          "price": "27.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/Motorola-Edge-30-Design_0006_Group-1-copy-3-300x300.jpg"
+        },
+        {
+          "name": "Spiderman logo",
+          "price": "29.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/01/SCP-115-glmotorolaedge30-96-1-300x300.jpg"
+        },
+        {
+          "name": "Minions Army",
+          "price": "30.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glmotorolaedge30-23-300x300.jpg"
+        },
+        {
+          "name": "Angry Naruto",
+          "price": "32.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glmotorolaedge30-26-300x300.jpg"
+        },
+        {
+          "name": "Bruce Lee",
+          "price": "33.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glmotorolaedge30-8-300x300.jpg"
+        },
+        {
+          "name": "Virat kohli",
+          "price": "34.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/49-3-300x300.jpg"
+        },
+        {
+          "name": "The Piggy Plat",
+          "price": "35.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/46-3-300x300.jpg"
+        }
+      ],
+      "clear_cases": [
+        {
+          "name": "Motorola Clear Case 1",
+          "price": "16.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/32-24-300x300.jpg"
+        },
+        {
+          "name": "Motorola Clear Case 2",
+          "price": "17.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/17-24-300x300.jpg"
+        },
+        {
+          "name": "Motorola Clear Case 3",
+          "price": "19.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/30-23-300x300.jpg"
+        },
+        {
+          "name": "Motorola Clear Case 4",
+          "price": "20.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/33-24-300x300.jpg"
+        },
+        {
+          "name": "Motorola Clear Case 5",
+          "price": "21.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/29-23-300x300.jpg"
+        },
+        {
+          "name": "Motorola Clear Case 6",
+          "price": "22.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/28-23-300x300.jpg"
+        },
+        {
+          "name": "Motorola Clear Case 7",
+          "price": "23.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/25-24-300x300.jpg"
+        },
+        {
+          "name": "Motorola Clear Case 8",
+          "price": "24.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/22-24-300x300.jpg"
+        },
+        {
+          "name": "Motorola Clear Case 9",
+          "price": "25.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/19-24-300x300.jpg"
+        },
+        {
+          "name": "Motorola Clear Case 10",
+          "price": "26.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/16-24-300x300.jpg"
+        }
+      ],
+      "silicon_cases": [
+        {
+          "name": "Motorola Silicon Case 1",
+          "price": "9.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-52-300x300.jpg"
+        },
+        {
+          "name": "Motorola Silicon Case 2",
+          "price": "10.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-58-300x300.jpg"
+        },
+        {
+          "name": "Motorola Silicon Case 3",
+          "price": "11.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-94-300x300.jpg"
+        },
+        {
+          "name": "Motorola Silicon Case 4",
+          "price": "12.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-54-300x300.jpg"
+        },
+        {
+          "name": "Motorola Silicon Case 5",
+          "price": "14.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-89-300x300.jpg"
+        },
+        {
+          "name": "Motorola Silicon Case 6",
+          "price": "15.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-81-300x300.jpg"
+        },
+        {
+          "name": "Motorola Silicon Case 7",
+          "price": "16.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-79-300x300.jpg"
+        },
+        {
+          "name": "Motorola Silicon Case 8",
+          "price": "17.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-75-300x300.jpg"
+        },
+        {
+          "name": "Motorola Silicon Case 9",
+          "price": "18.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-77-300x300.jpg"
+        },
+        {
+          "name": "Motorola Silicon Case 10",
+          "price": "19.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-SiliMotorolaEdge30-74-300x300.jpg"
+        }
+      ]
+    },
+    {
+      "brand": "Realme",
+      "models": [
+        "Realme 11 Pro",
+        "Realme 11 Pro+",
+        "Realme 10",
+        "Realme 9 Pro",
+        "Realme GT 2",
+        "Realme GT Master",
+        "Realme Narzo 50",
+        "Realme C31",
+        "Realme C35",
+        "Realme GT Neo"
+      ],
+      "glass_cases": [
+        {
+          "name": "Realme Glass Case 1",
+          "price": "23.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/08/SCP-115-glrealme10proplus5g-26-300x300.jpg"
+        },
+        {
+          "name": "Realme Glass Case 2",
+          "price": "25.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/04/SCP-115-glrealme10proplus5g-77-300x300.jpg"
+        },
+        {
+          "name": "Realme Glass Case 3",
+          "price": "27.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/04/SCP-115-glrealme10proplus5g-59-300x300.jpg"
+        },
+        {
+          "name": "Realme Glass Case 4",
+          "price": "28.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/SCP-115-glrealme10proplus5g-1-300x300.jpg"
+        },
+        {
+          "name": "Realme Glass Case 5",
+          "price": "29.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/SCP-115-glrealme10proplus5g-11-300x300.jpg"
+        },
+        {
+          "name": "Realme Glass Case 6",
+          "price": "30.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glrealme10proplus5g-17-300x300.jpg"
+        },
+        {
+          "name": "Realme Glass Case 7",
+          "price": "31.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/04/SCP-115-glrealme10proplus5g-18-300x300.jpg"
+        },
+        {
+          "name": "Realme Glass Case 8",
+          "price": "32.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-Realme-10-Pro-Plus-5G-5-300x300.jpg"
+        },
+        {
+          "name": "Realme Glass Case 9",
+          "price": "33.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/04/SCP-115-glrealme10proplus5g-91-300x300.jpg"
+        },
+        {
+          "name": "Realme Glass Case 10",
+          "price": "34.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-Realme-10-Pro-Plus-5G-3-300x300.jpg"
+        }
+      ],
+      "clear_cases": [
+        {
+          "name": "Realme Clear Case 1",
+          "price": "14.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/09/68-9-300x300.jpg"
+        },
+        {
+          "name": "Realme Clear Case 2",
+          "price": "15.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/09/56-9-300x300.jpg"
+        },
+        {
+          "name": "Realme Clear Case 3",
+          "price": "17.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/24-177-300x300.jpg"
+        },
+        {
+          "name": "Realme Clear Case 4",
+          "price": "18.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/26-177-300x300.jpg"
+        },
+        {
+          "name": "Realme Clear Case 5",
+          "price": "19.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/14-177-300x300.jpg"
+        },
+        {
+          "name": "Realme Clear Case 6",
+          "price": "20.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/13-177-300x300.jpg"
+        },
+        {
+          "name": "Realme Clear Case 7",
+          "price": "22.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/12-176-300x300.jpg"
+        },
+        {
+          "name": "Realme Clear Case 8",
+          "price": "23.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/10-177-300x300.jpg"
+        },
+        {
+          "name": "Realme Clear Case 9",
+          "price": "24.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/8-177-300x300.jpg"
+        },
+        {
+          "name": "Realme Clear Case 10",
+          "price": "25.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/7-177-300x300.jpg"
+        }
+      ],
+      "silicon_cases": [
+        {
+          "name": "Realme Silicon Case 1",
+          "price": "8.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/02/SCP-115-siliconerealme10pro5-23-300x300.jpg"
+        },
+        {
+          "name": "Realme Silicon Case 2",
+          "price": "9.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/10/Realme-10-Pro-5G-1-300x300.jpg"
+        },
+        {
+          "name": "Realme Silicon Case 3",
+          "price": "11.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconerealme10prop-81-300x300.jpg"
+        },
+        {
+          "name": "Realme Silicon Case 4",
+          "price": "12.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconerealme10prop-50-300x300.jpg"
+        },
+        {
+          "name": "Realme Silicon Case 5",
+          "price": "13.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconerealme10prop-28-300x300.jpg"
+        },
+        {
+          "name": "Realme Silicon Case 6",
+          "price": "14.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconerealme10prop-78-300x300.jpg"
+        },
+        {
+          "name": "Realme Silicon Case 7",
+          "price": "16.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconerealme10prop-70-300x300.jpg"
+        },
+        {
+          "name": "Realme Silicon Case 8",
+          "price": "17.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconerealme10prop-68-300x300.jpg"
+        },
+        {
+          "name": "Realme Silicon Case 9",
+          "price": "18.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconerealme10prop-74-300x300.jpg"
+        },
+        {
+          "name": "Realme Silicon Case 10",
+          "price": "19.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconerealme10prop-66-300x300.jpg"
+        }
+      ]
+    },
+    {
+      "brand": "Oppo",
+      "models": [
+        "Oppo A74",
+        "Oppo F19",
+        "Oppo Find X3",
+        "Oppo Reno6",
+        "Oppo A95",
+        "Oppo K9",
+        "Oppo A78",
+        "Oppo F21 Pro",
+        "Oppo Find X2",
+        "Oppo Reno5"
+      ],
+      "glass_cases": [
+        {
+          "name": "Oppo Glass Case 1",
+          "price": "22.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-24-300x300.jpg"
+        },
+        {
+          "name": "Oppo Glass Case 2",
+          "price": "23.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-23-300x300.jpg"
+        },
+        {
+          "name": "Oppo Glass Case 3",
+          "price": "25.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-22-300x300.jpg"
+        },
+        {
+          "name": "Oppo Glass Case 4",
+          "price": "26.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-21-300x300.jpg"
+        },
+        {
+          "name": "Oppo Glass Case 5",
+          "price": "28.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-18-300x300.jpg"
+        },
+        {
+          "name": "Oppo Glass Case 6",
+          "price": "29.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-16-300x300.jpg"
+        },
+        {
+          "name": "Oppo Glass Case 7",
+          "price": "30.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-15-300x300.jpg"
+        },
+        {
+          "name": "Oppo Glass Case 8",
+          "price": "31.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-14-300x300.jpg"
+        },
+        {
+          "name": "Oppo Glass Case 9",
+          "price": "32.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-8-300x300.jpg"
+        },
+        {
+          "name": "Oppo Glass Case 10",
+          "price": "33.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloppoa955g-5-300x300.jpg"
+        }
+      ],
+      "clear_cases": [
+        {
+          "name": "Oppo Clear Case 1",
+          "price": "12.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/Oppo_Reno_10-53-300x300.jpg"
+        },
+        {
+          "name": "Oppo Clear Case 2",
+          "price": "13.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Oppo-Reno10-13-300x300.jpg"
+        },
+        {
+          "name": "Oppo Clear Case 3",
+          "price": "15.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/Oppo_Reno_10-43-300x300.jpg"
+        },
+        {
+          "name": "Oppo Clear Case 4",
+          "price": "16.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/S9-21-300x300.jpg"
+        },
+        {
+          "name": "Oppo Clear Case 5",
+          "price": "18.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Oppo-Reno10-40-300x300.jpg"
+        },
+        {
+          "name": "Oppo Clear Case 6",
+          "price": "19.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Oppo-Reno10-38-300x300.jpg"
+        },
+        {
+          "name": "Oppo Clear Case 7",
+          "price": "21.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Oppo-Reno10-39-300x300.jpg"
+        },
+        {
+          "name": "Oppo Clear Case 8",
+          "price": "22.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Oppo-Reno10-23-300x300.jpg"
+        },
+        {
+          "name": "Oppo Clear Case 9",
+          "price": "23.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Oppo-Reno10-22-300x300.jpg"
+        },
+        {
+          "name": "Oppo Clear Case 10",
+          "price": "24.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Oppo-Reno10-26-300x300.jpg"
+        }
+      ],
+      "silicon_cases": [
+        {
+          "name": "Oppo Silicon Case 1",
+          "price": "7.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-63-300x300.jpg"
+        },
+        {
+          "name": "Oppo Silicon Case 2",
+          "price": "8.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-59-300x300.jpg"
+        },
+        {
+          "name": "Oppo Silicon Case 3",
+          "price": "9.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-60-300x300.jpg"
+        },
+        {
+          "name": "Oppo Silicon Case 4",
+          "price": "10.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-61-300x300.jpg"
+        },
+        {
+          "name": "Oppo Silicon Case 5",
+          "price": "11.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-57-300x300.jpg"
+        },
+        {
+          "name": "Oppo Silicon Case 6",
+          "price": "12.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-56-300x300.jpg"
+        },
+        {
+          "name": "Oppo Silicon Case 7",
+          "price": "14.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-51-300x300.jpg"
+        },
+        {
+          "name": "Oppo Silicon Case 8",
+          "price": "15.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-48-300x300.jpg"
+        },
+        {
+          "name": "Oppo Silicon Case 9",
+          "price": "16.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-45-300x300.jpg"
+        },
+        {
+          "name": "Oppo Silicon Case 10",
+          "price": "17.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeopporeno8t5g-43-300x300.jpg"
+        }
+      ]
+    },
+    {
+      "brand": "Vivo",
+      "models": [
+        "Vivo X80",
+        "Vivo X70",
+        "Vivo V21",
+        "Vivo V23",
+        "Vivo Y55",
+        "Vivo Y21",
+        "Vivo V25",
+        "Vivo Y33s",
+        "Vivo S9",
+        "Vivo V19"
+      ],
+      "glass_cases": [
+        {
+          "name": "Vivo Glass Case 1",
+          "price": "24.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/21-3-300x300.jpg"
+        },
+        {
+          "name": "Vivo Glass Case 2",
+          "price": "26.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/8-5-300x300.jpg"
+        },
+        {
+          "name": "Vivo Glass Case 3",
+          "price": "28.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/12-3-300x300.jpg"
+        },
+        {
+          "name": "Vivo Glass Case 4",
+          "price": "30.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-glvivoiqoo7-5-300x300.jpg"
+        },
+        {
+          "name": "Vivo Glass Case 5",
+          "price": "32.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-Vivo-iQoo-7-10-300x300.jpg"
+        },
+        {
+          "name": "Vivo Glass Case 6",
+          "price": "34.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-Vivo-iQoo-7-4-300x300.jpg"
+        },
+        {
+          "name": "Vivo Glass Case 7",
+          "price": "36.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/19-3-300x300.jpg"
+        },
+        {
+          "name": "Vivo Glass Case 8",
+          "price": "38.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/05/SCP-115-glvivoiqoo7-60-300x300.jpg"
+        },
+        {
+          "name": "Vivo Glass Case 9",
+          "price": "40.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/SCP-115-glvivoiqoo7-63-1-300x300.jpg"
+        },
+        {
+          "name": "Vivo Glass Case 10",
+          "price": "42.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/05/SCP-115-glvivoiqoo7-93-300x300.jpg"
+        }
+      ],
+      "clear_cases": [
+        {
+          "name": "Vivo Clear Case 1",
+          "price": "13.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/Vivo-iQOO-9-NEW-DESIGN_0008_Group-1-copy-31-300x300.jpg"
+        },
+        {
+          "name": "Vivo Clear Case 2",
+          "price": "14.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/14-301-300x300.jpg"
+        },
+        {
+          "name": "Vivo Clear Case 3",
+          "price": "16.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/S9-183-300x300.jpg"
+        },
+        {
+          "name": "Vivo Clear Case 4",
+          "price": "17.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/S4-373-300x300.jpg"
+        },
+        {
+          "name": "Vivo Clear Case 5",
+          "price": "19.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/Vivo-iQOO-9-NEW-DESIGN_0001_Group-1-copy-38-300x300.jpg"
+        },
+        {
+          "name": "Vivo Clear Case 6",
+          "price": "20.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/Vivo-iQOO-9-NEW-DESIGN_0012_Group-1-copy-27-300x300.jpg"
+        },
+        {
+          "name": "Vivo Clear Case 7",
+          "price": "22.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/Vivo-iQOO-9-NEW-DESIGN_0013_Group-1-copy-26-300x300.jpg"
+        },
+        {
+          "name": "Vivo Clear Case 8",
+          "price": "23.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/Vivo-iQOO-9-NEW-DESIGN_0017_Group-1-copy-22-300x300.jpg"
+        },
+        {
+          "name": "Vivo Clear Case 9",
+          "price": "25.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/Vivo-iQOO-9-NEW-DESIGN_0027_Group-1-copy-12-300x300.jpg"
+        },
+        {
+          "name": "Vivo Clear Case 10",
+          "price": "26.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/Vivo-iQOO-9-NEW-DESIGN_0015_Group-1-copy-24-300x300.jpg"
+        }
+      ],
+      "silicon_cases": [
+        {
+          "name": "Vivo Silicon Case 1",
+          "price": "10.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/10/SCP-115-siliconevivoiqoo7-5-300x300.jpg"
+        },
+        {
+          "name": "Vivo Silicon Case 2",
+          "price": "11.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconevivoiqoo7-29-300x300.jpg"
+        },
+        {
+          "name": "Vivo Silicon Case 3",
+          "price": "13.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconevivoiqoo7-85-300x300.jpg"
+        },
+        {
+          "name": "Vivo Silicon Case 4",
+          "price": "14.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconevivoiqoo7-83-300x300.jpg"
+        },
+        {
+          "name": "Vivo Silicon Case 5",
+          "price": "16.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconevivoiqoo7-42-300x300.jpg"
+        },
+        {
+          "name": "Vivo Silicon Case 6",
+          "price": "18.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconevivoiqoo7-51-300x300.jpg"
+        },
+        {
+          "name": "Vivo Silicon Case 7",
+          "price": "20.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconevivoiqoo7-40-300x300.jpg"
+        },
+        {
+          "name": "Vivo Silicon Case 8",
+          "price": "22.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconevivoiqoo7-37-300x300.jpg"
+        },
+        {
+          "name": "Vivo Silicon Case 9",
+          "price": "24.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconevivoiqoo7-35-300x300.jpg"
+        },
+        {
+          "name": "Vivo Silicon Case 10",
+          "price": "26.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconevivoiqoo7-36-300x300.jpg"
+        }
+      ]
+    },
+
+    {
+      "brand": "Nothing",
+      "models": [
+        "Nothing Phone 1",
+        "Nothing Phone 2",
+        "Nothing Phone Pro",
+        "Nothing Phone Lite",
+        "Nothing Phone X",
+        "Nothing Phone X2",
+        "Nothing Phone Alpha",
+        "Nothing Phone Z",
+        "Nothing Phone X Max",
+        "Nothing Phone Z2"
+      ],
+      "glass_cases": [
+        {
+          "name": "Nothing Glass Case 1",
+          "price": "30.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-115-glnothingphone2cut-55-300x300.jpg"
+        },
+        {
+          "name": "Nothing Glass Case 2",
+          "price": "32.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-115-glnothingphone2cut-70-300x300.jpg"
+        },
+        {
+          "name": "Nothing Glass Case 3",
+          "price": "35.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-glnothingphone1-24-300x300.jpg"
+        },
+        {
+          "name": "Nothing Glass Case 4",
+          "price": "37.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/47-13-300x300.jpg"
+        },
+        {
+          "name": "Nothing Glass Case 5",
+          "price": "40.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/49-13-300x300.jpg"
+        },
+        {
+          "name": "Nothing Glass Case 6",
+          "price": "42.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-115-glnothingphone2cut-68-300x300.jpg"
+        },
+        {
+          "name": "Nothing Glass Case 7",
+          "price": "45.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-115-glnothingphone2cut-86-300x300.jpg"
+        },
+        {
+          "name": "Nothing Glass Case 8",
+          "price": "47.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/44-13-300x300.jpg"
+        },
+        {
+          "name": "Nothing Glass Case 9",
+          "price": "50.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/42-13-300x300.jpg"
+        },
+        {
+          "name": "Nothing Glass Case 10",
+          "price": "52.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/41-13-300x300.jpg"
+        }
+      ],
+      "clear_cases": [
+        {
+          "name": "Nothing Clear Case 1",
+          "price": "18.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/0024_Group-1-copy-9-300x300.jpg"
+        },
+        {
+          "name": "Nothing Clear Case 2",
+          "price": "19.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/0017_Group-1-copy-16-300x300.jpg"
+        },
+        {
+          "name": "Nothing Clear Case 3",
+          "price": "21.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/0013_Group-1-copy-20-300x300.jpg"
+        },
+        {
+          "name": "Nothing Clear Case 4",
+          "price": "22.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/0002_Group-1-copy-31-1-300x300.jpg"
+        },
+        {
+          "name": "Nothing Clear Case 5",
+          "price": "24.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/0012_Group-1-copy-21-300x300.jpg"
+        },
+        {
+          "name": "Nothing Clear Case 6",
+          "price": "25.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/0026_Group-1-copy-7-300x300.jpg"
+        },
+        {
+          "name": "Nothing Clear Case 7",
+          "price": "27.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/0003_Group-1-copy-30-1-300x300.jpg"
+        },
+        {
+          "name": "Nothing Clear Case 8",
+          "price": "28.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Nothing-Phone-1-37-300x300.jpg"
+        },
+        {
+          "name": "Nothing Clear Case 9",
+          "price": "30.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/2-16-300x300.jpg"
+        },
+        {
+          "name": "Nothing Clear Case 10",
+          "price": "31.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/10-13-300x300.jpg"
+        }
+      ],
+      "silicon_cases": [
+        {
+          "name": "Nothing Silicon Case 1",
+          "price": "12.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/10/SCP-115-siliconenothingphone-40-300x300.jpg"
+        },
+        {
+          "name": "Nothing Silicon Case 2",
+          "price": "13.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/10/SCP-115-siliconenothingphone-40-300x300.jpg"
+        },
+        {
+          "name": "Nothing Silicon Case 3",
+          "price": "15.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconenothingphone-73-300x300.jpg"
+        },
+        {
+          "name": "Nothing Silicon Case 4",
+          "price": "16.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconenothingphone-69-300x300.jpg"
+        },
+        {
+          "name": "Nothing Silicon Case 5",
+          "price": "18.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconenothingphone-66-300x300.jpg"
+        },
+        {
+          "name": "Nothing Silicon Case 6",
+          "price": "19.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconenothingphone-62-300x300.jpg"
+        },
+        {
+          "name": "Nothing Silicon Case 7",
+          "price": "21.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconenothingphone-61-300x300.jpg"
+        },
+        {
+          "name": "Nothing Silicon Case 8",
+          "price": "22.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconenothingphone-34-300x300.jpg"
+        },
+        {
+          "name": "Nothing Silicon Case 9",
+          "price": "24.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconenothingphone-33-300x300.jpg"
+        },
+        {
+          "name": "Nothing Silicon Case 10",
+          "price": "25.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconenothingphone-40-300x300.jpg"
+        }
+      ]
+    },
+    {
+      "brand": "OnePlus",
+      "models": [
+        "OnePlus 9 Pro",
+        "OnePlus 8T",
+        "OnePlus 7",
+        "OnePlus 9R",
+        "OnePlus Nord",
+        "OnePlus 10T",
+        "OnePlus 7 Pro",
+        "OnePlus 10 Pro",
+        "OnePlus Nord CE",
+        "OnePlus 6"
+      ],
+      "glass_cases": [
+        {
+          "name": "OnePlus Glass Case 1",
+          "price": "30.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-gloneplus10pro5g-9-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Glass Case 2",
+          "price": "32.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-gloneplus10pro5g-30-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Glass Case 3",
+          "price": "35.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-gloneplus10pro5g-6-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Glass Case 4",
+          "price": "37.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/48-74-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Glass Case 5",
+          "price": "40.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/39-74-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Glass Case 6",
+          "price": "42.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/33-85-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Glass Case 7",
+          "price": "45.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/30-85-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Glass Case 8",
+          "price": "47.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/31-85-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Glass Case 9",
+          "price": "50.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/28-85-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Glass Case 10",
+          "price": "52.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/22-85-300x300.jpg"
+        }
+      ],
+      "clear_cases": [
+        {
+          "name": "OnePlus Clear Case 1",
+          "price": "18.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/07/19-23-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Clear Case 2",
+          "price": "19.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/28-40-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Clear Case 3",
+          "price": "21.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/7-44-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Clear Case 4",
+          "price": "22.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/05/Oneplus-10-Pro-5G-2-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Clear Case 5",
+          "price": "24.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/27-41-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Clear Case 6",
+          "price": "25.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/14-42-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Clear Case 7",
+          "price": "27.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/38-39-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Clear Case 8",
+          "price": "28.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Oneplus-10-Pro-5G-37-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Clear Case 9",
+          "price": "30.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/07/6-23-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Clear Case 10",
+          "price": "31.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/26-41-300x300.jpgg"
+        }
+      ],
+      "silicon_cases": [
+        {
+          "name": "OnePlus Silicon Case 1",
+          "price": "12.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeoneplus10pro-13-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Silicon Case 2",
+          "price": "13.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/10/SCP-115-siliconeoneplus10pro-22-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Silicon Case 3",
+          "price": "15.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeoneplus10pro-35-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Silicon Case 4",
+          "price": "16.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeoneplus10pro-27-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Silicon Case 5",
+          "price": "18.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeoneplus10pro-18-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Silicon Case 6",
+          "price": "19.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeoneplus10pro-12-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Silicon Case 7",
+          "price": "21.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeoneplus10pro-11-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Silicon Case 8",
+          "price": "22.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeoneplus10pro-1-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Silicon Case 9",
+          "price": "24.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeoneplus10pro-4-300x300.jpg"
+        },
+        {
+          "name": "OnePlus Silicon Case 10",
+          "price": "25.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconeoneplus10pro-6-300x300.jpg"
+        }
+      ]
+    },
+    {
+      "brand": "Google",
+      "models": [
+        "Google Pixel 6",
+        "Google Pixel 5",
+        "Google Pixel 6 Pro",
+        "Google Pixel 4",
+        "Google Pixel 4a",
+        "Google Pixel 6a",
+        "Google Pixel 3",
+        "Google Pixel 3a",
+        "Google Pixel 2",
+        "Google Pixel 7"
+      ],
+      "glass_cases": [
+        {
+          "name": "Google Glass Case 1",
+          "price": "30.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/03/SCP-115-glgooglepixel6pro-4-1-300x300.jpg"
+        },
+        {
+          "name": "Google Glass Case 2",
+          "price": "32.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/04/SCP-115-glgooglepixel6pro-22-300x300.jpg"
+        },
+        {
+          "name": "Google Glass Case 3",
+          "price": "35.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/04/SCP-115-glgooglepixel6pro-26-300x300.jpg"
+        },
+        {
+          "name": "Google Glass Case 4",
+          "price": "37.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/03/SCP-115-glgooglepixel6pro-18-1-300x300.jpg"
+        },
+        {
+          "name": "Google Glass Case 5",
+          "price": "40.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/03/SCP-115-glgooglepixel6pro-81-1-300x300.jpg"
+        },
+        {
+          "name": "Google Glass Case 6",
+          "price": "42.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/01/SCP-115-glgooglepixel6pro-21-300x300.jpg"
+        },
+        {
+          "name": "Google Glass Case 7",
+          "price": "45.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/45-64-300x300.jpg"
+        },
+        {
+          "name": "Google Glass Case 8",
+          "price": "47.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/46-64-300x300.jpg"
+        },
+        {
+          "name": "Google Glass Case 9",
+          "price": "50.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/40-64-300x300.jpg"
+        },
+        {
+          "name": "Google Glass Case 10",
+          "price": "52.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/10/41-64-300x300.jpg"
+        }
+      ],
+      "clear_cases": [
+        {
+          "name": "Google Clear Case 1",
+          "price": "18.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/34-70-300x300.jpg"
+        },
+        {
+          "name": "Google Clear Case 2",
+          "price": "19.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/27-71-300x300.jpg"
+        },
+        {
+          "name": "Google Clear Case 3",
+          "price": "21.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/54-300x300.jpg"
+        },
+        {
+          "name": "Google Clear Case 4",
+          "price": "22.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/49-300x300.jpg"
+        },
+        {
+          "name": "Google Clear Case 5",
+          "price": "24.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/40-72-300x300.jpg"
+        },
+        {
+          "name": "Google Clear Case 6",
+          "price": "25.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/8-76-300x300.jpg"
+        },
+        {
+          "name": "Google Clear Case 7",
+          "price": "27.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/63-300x300.jpg"
+        },
+        {
+          "name": "Google Clear Case 8",
+          "price": "28.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/06/12-104-300x300.jpg"
+        },
+        {
+          "name": "Google Clear Case 9",
+          "price": "30.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2022/11/27-3-300x300.jpg"
+        },
+        {
+          "name": "Google Clear Case 10",
+          "price": "31.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/7-16-300x300.jpg"
+        }
+      ],
+      "silicon_cases": [
+        {
+          "name": "Google Silicon Case 1",
+          "price": "12.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconegooglepixel6-53-1-300x300.jpg"
+        },
+        {
+          "name": "Google Silicon Case 2",
+          "price": "13.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/10/SCP-115-siliconegooglepixel6-23-4-300x300.jpg"
+        },
+        {
+          "name": "Google Silicon Case 3",
+          "price": "15.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconegooglepixel6-92-1-300x300.jpg"
+        },
+        {
+          "name": "Google Silicon Case 4",
+          "price": "16.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconegooglepixel6-85-1-300x300.jpg"
+        },
+        {
+          "name": "Google Silicon Case 5",
+          "price": "18.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconegooglepixel6-82-1-300x300.jpg"
+        },
+        {
+          "name": "Google Silicon Case 6",
+          "price": "19.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconegooglepixel6-81-1-300x300.jpg"
+        },
+        {
+          "name": "Google Silicon Case 7",
+          "price": "21.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconegooglepixel6-41-1-300x300.jpg"
+        },
+        {
+          "name": "Google Silicon Case 8",
+          "price": "22.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconegooglepixel6-5-1-300x300.jpg"
+        },
+        {
+          "name": "Google Silicon Case 9",
+          "price": "24.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/10/SCP-115-siliconegooglepixel6-42-4-300x300.jpg"
+        },
+        {
+          "name": "Google Silicon Case 10",
+          "price": "25.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-siliconegooglepixel6-2-1-300x300.jpg"
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "models": [
+        "Samsung Galaxy S21",
+        "Samsung Galaxy S20",
+        "Samsung Galaxy S10",
+        "Samsung Galaxy Note 20",
+        "Samsung Galaxy Note 10",
+        "Samsung Galaxy A52",
+        "Samsung Galaxy A72",
+        "Samsung Galaxy A12",
+        "Samsung Galaxy M31",
+        "Samsung Galaxy M51"
+      ],
+      "glass_cases": [
+        {
+          "name": "Samsung Glass Case 1",
+          "price": "30.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glsamsunga145g-32-300x300.jpg"
+        },
+        {
+          "name": "Samsung Glass Case 2",
+          "price": "32.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glsamsunga145g-19-300x300.jpg"
+        },
+        {
+          "name": "Samsung Glass Case 3",
+          "price": "35.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-Samsung-A14-5G-4-300x300.jpg"
+        },
+        {
+          "name": "Samsung Glass Case 4",
+          "price": "37.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glsamsunga145g-31-300x300.jpg"
+        },
+        {
+          "name": "Samsung Glass Case 5",
+          "price": "40.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/08/SCP-Samsung-A14-5G-2-300x300.jpg"
+        },
+        {
+          "name": "Samsung Glass Case 6",
+          "price": "42.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glsamsunga145g-29-300x300.jpg"
+        },
+        {
+          "name": "Samsung Glass Case 7",
+          "price": "45.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2023/03/SCP-115-glsamsunga145g-84-300x300.jpg"
+        },
+        {
+          "name": "Samsung Glass Case 8",
+          "price": "47.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glsamsunga145g-30-300x300.jpg"
+        },
+        {
+          "name": "Samsung Glass Case 9",
+          "price": "50.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glsamsunga145g-16-300x300.jpg"
+        },
+        {
+          "name": "Samsung Glass Case 10",
+          "price": "52.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/06/SCP-115-glsamsunga145g-37-300x300.jpg"
+        }
+      ],
+      "clear_cases": [
+        {
+          "name": "Samsung Clear Case 1",
+          "price": "18.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/16-212-300x300.jpg"
+        },
+        {
+          "name": "Samsung Clear Case 2",
+          "price": "19.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/15-212-300x300.jpg"
+        },
+        {
+          "name": "Samsung Clear Case 3",
+          "price": "21.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/14-212-300x300.jpg"
+        },
+        {
+          "name": "Samsung Clear Case 4",
+          "price": "22.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/3-213-300x300.jpg"
+        },
+        {
+          "name": "Samsung Clear Case 5",
+          "price": "24.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/10-212-300x300.jpg"
+        },
+        {
+          "name": "Samsung Clear Case 6",
+          "price": "25.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/4-212-300x300.jpg"
+        },
+        {
+          "name": "Samsung Clear Case 7",
+          "price": "27.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/S8-61-300x300.jpg"
+        },
+        {
+          "name": "Samsung Clear Case 8",
+          "price": "28.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Samsung-A05s-38-300x300.jpg"
+        },
+        {
+          "name": "Samsung Clear Case 9",
+          "price": "30.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Samsung-A05s-36-300x300.jpg"
+        },
+        {
+          "name": "Samsung Clear Case 10",
+          "price": "31.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/07/SCP-Samsung-A05s-23-300x300.jpg"
+        }
+      ],
+      "silicon_cases": [
+        {
+          "name": "Samsung Silicon Case 1",
+          "price": "12.00",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-90-300x300.jpg"
+        },
+        {
+          "name": "Samsung Silicon Case 2",
+          "price": "13.50",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-11-300x300.jpg"
+        },
+        {
+          "name": "Samsung Silicon Case 3",
+          "price": "15.00",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-10-300x300.jpg"
+        },
+        {
+          "name": "Samsung Silicon Case 4",
+          "price": "16.50",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-85-300x300.jpg"
+        },
+        {
+          "name": "Samsung Silicon Case 5",
+          "price": "18.00",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-83-300x300.jpg"
+        },
+        {
+          "name": "Samsung Silicon Case 6",
+          "price": "19.50",
+          "discount": "10%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-84-300x300.jpg"
+        },
+        {
+          "name": "Samsung Silicon Case 7",
+          "price": "21.00",
+          "discount": "15%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-72-300x300.jpg"
+        },
+        {
+          "name": "Samsung Silicon Case 8",
+          "price": "22.50",
+          "discount": "5%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-65-300x300.jpg"
+        },
+        {
+          "name": "Samsung Silicon Case 9",
+          "price": "24.00",
+          "discount": "12%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-60-300x300.jpg"
+        },
+        {
+          "name": "Samsung Silicon Case 10",
+          "price": "25.50",
+          "discount": "8%",
+          "imageURL": "https://stayclassy.in/wp-content/uploads/2024/09/SCP-115-silisamsunga155g-49-300x300.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -19,16 +19,24 @@ const News = () => {
       </Divider>
       <Grid container my={2} mx={1}>
         <Grid item xs={3}>
+          <a href='https://www.thestatesman.com/inspiration-hub/jaydip-dholariya-and-nihal-bhalala-understand-the-market-before-selling-products-1502938055.html?_ga=2.80824983.1809710391.1728279118-927958064.1728279116&_gac=1.154138826.1728303870.Cj0KCQjwjY64BhCaARIsAIfc7YZcj-k3hW8CbcF8b-hbY2VpY641tihpjxI-B5yc4lOaZLkSvUpJRScaAtxUEALw_wcB'>
           <img src={news.image1} style={{ width: "300px", height: "100px" }} />
+          </a>
         </Grid>
         <Grid item xs={3}>
+        <a href='https://www.thehindu.com/'>
           <img src={news.image2} style={{ width: "300px", height: "100px" }} />
+          </a>
         </Grid>
         <Grid item xs={3}>
+          <a href='https://www.ibtimes.sg/stayclassys-founders-jaydip-dholariya-nihal-bhalala-are-expanding-its-business-trendy-53768?_ga=2.181039015.1809710391.1728279118-927958064.1728279116&_gac=1.258529784.1728303870.Cj0KCQjwjY64BhCaARIsAIfc7YZcj-k3hW8CbcF8b-hbY2VpY641tihpjxI-B5yc4lOaZLkSvUpJRScaAtxUEALw_wcB'>
           <img src={news.image3} style={{ width: "300px", height: "100px" }} />
+          </a>
         </Grid>
         <Grid item xs={3}>
+          <a href='https://www.deccanherald.com/brandspot/pr-spot/here-s-what-entrepreneurs-nihal-bhalala-and-jaydip-dholariya-have-to-say-about-their-e-commerce-company-stayclassy-928040.html?_ga=2.117984137.1809710391.1728279118-927958064.1728279116&_gac=1.213900646.1728303870.Cj0KCQjwjY64BhCaARIsAIfc7YZcj-k3hW8CbcF8b-hbY2VpY641tihpjxI-B5yc4lOaZLkSvUpJRScaAtxUEALw_wcB'>
           <img src={news.image4} style={{ width: "300px", height: "100px" }} />
+          </a>
         </Grid>
       </Grid>
     </Box>
