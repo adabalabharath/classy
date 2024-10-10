@@ -2,6 +2,7 @@ import { Button, Grid } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
+import EmptyData from "./EmptyData";
 
 const Model = () => {
   const [models, setModels] = useState([]);
@@ -19,9 +20,7 @@ const Model = () => {
   //   setModels(mod);
   // };
 
-   if(!data){
-       return <EmptyData/>
-    }
+  
 
   useEffect(() => {
     const mod = data?.filter((x) => x.brand === getModels); // Filter by brand
@@ -29,6 +28,10 @@ const Model = () => {
       setModels(mod[0].models); 
     }
   }, [data]);
+
+   if(!data){
+       return <EmptyData/>
+    }
 
   return (
     <Grid container direction={"row"} m={3} spacing={3}>

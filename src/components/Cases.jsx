@@ -81,7 +81,9 @@ const Cases = () => {
                     </Grid>
                     <Grid item>
                       <Typography variant="buttontext" color="success">
-                        Price: {x.price * 10}/-
+                        {`${"\u20B9"}
+                    ${x?.price * 10}`}
+                        .00
                       </Typography>
                     </Grid>
                     <Grid item>

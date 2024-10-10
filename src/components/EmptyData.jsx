@@ -1,11 +1,14 @@
-import { Typography } from '@mui/material'
+import { Grid, Typography } from '@mui/material'
 import React from 'react'
 
 const EmptyData = () => {
   return (
-    <div>
-        <Typography variant='h3' fontWeight={'bold'}>Seems like our vendor is resting!!!!</Typography>
-    </div>
+    <Grid container alignItems={'center'} direction='column'>
+        <Typography variant='h4' fontWeight={'bold'} color='error'>Seems like our vendor is in lunch break like SBI!!!!</Typography>
+        <Grid item>
+        <img src='https://media.tenor.com/uUqm-NBftk0AAAAM/knocking-head-stupid.gif'/>
+        </Grid>
+    </Grid>
   )
 }
 
