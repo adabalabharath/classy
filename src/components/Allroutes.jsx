@@ -7,6 +7,7 @@ import Brand from "./Brand";
 import Model from './Model'
 import Cases from "./Cases";
 import Product from "./Product";
+import EmptyData from "./EmptyData";
 
 const Allroutes = () => {
   return (
@@ -17,8 +18,9 @@ const Allroutes = () => {
         <Route path="/bag" element={<Bag />} />
         <Route path="/product-category/:type" element={<Brand/>}/>
         <Route path="/product-category/:type/:model" element={<Model/>}/>
-        <Route path="/product-category/:type/:model/:case" element={<Cases/>}/>
+        <Route path="/product-category/:type/:brand/:case" element={<Cases/>}/>
         <Route path='/:type/:brand/:model/:case' element={<Product/>}/>
+        <Route path='*' element={<EmptyData/>}/>
       </Routes>
     </div>
   );

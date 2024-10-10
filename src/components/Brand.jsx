@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { fetchData } from "../redux/action";
 import { useDispatch, useSelector } from "react-redux";
+import EmptyData from "./EmptyData";
 
 const Brand = () => {
   const data = useSelector((store) => store?.data);
@@ -36,10 +37,10 @@ const Brand = () => {
 
   return (
     <Grid container direction={"row"} m={3} spacing={3}>
-      {brands?.map((x) => {
+      {brands?.map((x,index) => {
         return (
           <>
-            <Grid item xs={4}>
+            <Grid item xs={4} key={index}>
               <Link to={`/product-category/${params.type}/${x}`}>
                 <Button
                   variant="contained"

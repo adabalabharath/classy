@@ -45,9 +45,9 @@ const About = () => {
           <Divider
             sx={{ width: "30px", borderWidth: "2px", borderRadius: 1 }}
           />
-          {Account.map((x) => {
+          {Account.map((x,index) => {
             return (
-              <Grid item xs={3}>
+              <Grid item xs={3} key={index}>
                 <Typography variant="subtitle2">{x}</Typography>
                 <Divider sx={{ width: "300px" }} />
               </Grid>

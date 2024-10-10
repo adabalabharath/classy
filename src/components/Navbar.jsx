@@ -1,4 +1,5 @@
 import {
+  Autocomplete,
   Box,
   Card,
   CardMedia,
@@ -7,11 +8,60 @@ import {
   Tooltip,
   Typography,
 } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import Bag from "../pages/Bag";
+import { useDispatch, useSelector } from "react-redux";
+import SearchCard from "./SearchCard";
 const Navbar = () => {
+  const data = useSelector((state) => state?.data);
+  const searched = useSelector((store) => store?.searched);
+  const dispatch = useDispatch();
+  const loc = useLocation();
+  const navigate = useNavigate();
+  const handleChange = (e) => {
+    if (e.target.value !== "") {
+      let arr = data?.filter((x) =>
+        x.models.some((y) => y.toLowerCase().includes(e.target.value))
+      );
+      dispatch({ type: "SEARCH_SUCCESS", payload: arr });
+    }
+  };
+
+  const debouncing = (func) => {
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        func.apply(this, args);
+      }, 2000);
+    };
+  };
+
+  const handleOptionChange = (event, newValue) => {
+    if (newValue) {
+      // Navigate to the desired route when an option is selected
+
+      const formattedValue = newValue.split(" ").join("_") + "-"; // Format for route if needed
+
+      const filterBrand = searched.filter((x) =>
+        x.models.some((model) => model.includes(newValue))
+      );
+      
+      const locType=loc?.pathname?.split('/')
+
+      const og=locType.filter(x=>x.includes('cases'))
+      
+      const type = og.length>0 ? og[0]: "Glass-cases";
+
+      const format = formattedValue.concat(type.split("-")[0] + "-Case");
+      navigate(`/product-category/${type}/${filterBrand[0].brand}/${format}`);
+      
+    }
+  };
+  //console.log(loc.pathname)
+  const debouncedHandleChange = debouncing(handleChange, 2000);
 
   return (
     <Card>
@@ -58,14 +108,22 @@ const Navbar = () => {
         </Grid>
 
         <Grid item>
-          <Grid
-            container
-            justifyContent={"right"}
-            alignItems="center"
-            spacing={2}
-          >
+          <Grid container alignItems="center" spacing={2}>
             <Grid item>
-              <TextField label="search for products" />
+              <Autocomplete
+                freeSolo
+                options={searched?.flatMap((x) => x.models) || []} // Flatmap to return array of models
+                onInputChange={debouncedHandleChange}
+                onChange={handleOptionChange}
+                renderInput={(params) => (
+                  <TextField
+                    {...params}
+                    label="Check ur model availability"
+                    variant="outlined"
+                  />
+                )}
+                sx={{ width: "250px" }}
+              />
             </Grid>
             <Grid item>
               <Link to="/account">
@@ -74,11 +132,12 @@ const Navbar = () => {
                 </Tooltip>
               </Link>
             </Grid>
-            <Bag/>
+            <Grid item >
+              <Bag />
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
-      
     </Card>
   );
 };

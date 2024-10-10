@@ -7,13 +7,12 @@ const Bag = () => {
 
   return (
     <>
-      <Grid item>
-        <Tooltip title="Bag">
-          <IconButton onClick={() => setDrawerOpen(true)}>
-            <LocalMallIcon sx={{ color: "skyblue" }} />
-          </IconButton>
-        </Tooltip>
-      </Grid>
+      <Tooltip title="Bag">
+        <IconButton onClick={() => setDrawerOpen(true)}>
+          <LocalMallIcon sx={{ color: "skyblue" }} />
+        </IconButton>
+      </Tooltip>
+
       <Drawer
         anchor="right"
         open={drawerOpen}

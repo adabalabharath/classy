@@ -17,8 +17,7 @@ const Cases = () => {
   const [mode, setMode] = useState([]);
   const params = useParams();
   const type = params.type.split("-").join("_").toLowerCase();
-  console.log(type);
-  const brand = params.model;
+  const brand = params.brand;
   const modal = params.case.split("-")[0].split("_").join(" ");
 
   // const caseData=()=>{
@@ -37,16 +36,16 @@ const Cases = () => {
         setMode(branded[0][type]);
       
     
-  }, [data]);
+  }, [data,brand]);
   if(!data){
        return <EmptyData/>
     }
   return (
     <>
       <Note />
-      <Grid container m={1} justifyContent={"center"}>
+      <Grid container m={1} justifyContent={"center"} >
         {mode?.map((x, index) => (
-          <Grid item sx={{ m: 2 }} xs={2}>
+          <Grid item sx={{ m: 2 }} xs={2} key={index}>
             <Card>
               <Grid
                 container
