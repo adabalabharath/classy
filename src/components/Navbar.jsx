@@ -1,4 +1,5 @@
 import {
+  AppBar,
   Autocomplete,
   Box,
   Card,
@@ -13,7 +14,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import Bag from "../pages/Bag";
 import { useDispatch, useSelector } from "react-redux";
-import SearchCard from "./SearchCard";
+
 const Navbar = () => {
   const data = useSelector((state) => state?.data);
   const searched = useSelector((store) => store?.searched);
@@ -48,16 +49,15 @@ const Navbar = () => {
       const filterBrand = searched.filter((x) =>
         x.models.some((model) => model.includes(newValue))
       );
-      
-      const locType=loc?.pathname?.split('/')
 
-      const og=locType.filter(x=>x.includes('cases'))
-      
-      const type = og.length>0 ? og[0]: "Glass-cases";
+      const locType = loc?.pathname?.split("/");
+
+      const og = locType.filter((x) => x.includes("cases"));
+
+      const type = og.length > 0 ? og[0] : "Glass-cases";
 
       const format = formattedValue.concat(type.split("-")[0] + "-Case");
       navigate(`/product-category/${type}/${filterBrand[0].brand}/${format}`);
-      
     }
   };
   //console.log(loc.pathname)
@@ -132,7 +132,7 @@ const Navbar = () => {
                 </Tooltip>
               </Link>
             </Grid>
-            <Grid item >
+            <Grid item>
               <Bag />
             </Grid>
           </Grid>
