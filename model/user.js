@@ -1,5 +1,6 @@
 const mongoose=require('mongoose')
 const validator=require('validator')
+const bcrypt=require('bcrypt')
 const userSchema=mongoose.Schema({
     name:{
         type:String,
@@ -23,11 +24,10 @@ const userSchema=mongoose.Schema({
 },
   { timestamps: true })
 
-// userSchema.methods.validatePassword=async function(password){
-//    if(!validator.isStrongPassword(password)){
-//     throw new Error('password is not strong')
-//    }
-// }
+userSchema.methods.validatePassword=async function(password){
+   let valid=await bcrypt.compare(password,this.password)
+   return valid
+}
 
 const User=mongoose.model('User',userSchema)
 
