@@ -44,12 +44,12 @@ authRouter.use("/login", async (req, res) => {
     if(!isValid){
         throw new Error('invalid password')
     }
-    const token=jwt.sign({_id:user._id},'classy')
+    const token= jwt.sign({_id:user._id},'classy')
 
     res.cookie('token',token)
     
 
-    res.status(201).send('logged in successfully');
+    res.status(201).send({status:'logged in successfully',user});
   } catch (error) {
     res.send(error.message);
   }

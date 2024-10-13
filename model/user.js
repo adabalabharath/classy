@@ -1,6 +1,13 @@
 const mongoose=require('mongoose')
 const validator=require('validator')
 const bcrypt=require('bcrypt')
+
+const bagSchema=mongoose.Schema({
+    name:String,
+    price: String,
+    discount: String,
+    imageURL: String
+})
 const userSchema=mongoose.Schema({
     name:{
         type:String,
@@ -16,10 +23,10 @@ const userSchema=mongoose.Schema({
     },
     password: { type: String, required: true },
     bag:{
-        type:[String]
+        type:[bagSchema]
     },
     wishlist:{
-        type:[String]
+        type:[]
     }
 },
   { timestamps: true })
