@@ -21,11 +21,11 @@ authRouter.post("/signup", async (req, res) => {
     const user = new User(signup);
     await user.save()
     res.status(201).send({
-      message: "User created successfully",
+      status: "User created successfully",
       user,
     });
   } catch (error) {
-    res.send(error.message);
+    res.send({status:error.message});
   }
 });
 
@@ -52,13 +52,13 @@ authRouter.post("/login", async (req, res) => {
     console.log(token)
     res.status(201).send({status:'logged in successfully',user,token});
   } catch (error) {
-    res.send(error.message);
+    res.send({status:error.message});
   }
 });
 
 authRouter.post('/logout',async(req,res)=>{
     res.cookie('token','',{expires:new Date(0)})
-    res.send('logged out successfully')
+    res.send({status:'logged out'});
 })
 
 module.exports = authRouter;
