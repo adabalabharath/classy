@@ -7,7 +7,7 @@ bagRouter.post('/addbag',auth,async(req,res)=>{
        let loggedUser=req.user
        loggedUser.bag.push(req.body);
        await loggedUser.save()
-       res.send({status:'added to bag',loggedUser})
+       res.send({status:'added to bag',user:loggedUser})
    }catch(error){
        res.send(error)
    }

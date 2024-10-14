@@ -6,7 +6,11 @@ const bagSchema=mongoose.Schema({
     name:String,
     price: String,
     discount: String,
-    imageURL: String
+    imageURL: String,
+    count:{
+        type:Number,
+        default:1
+    }
 })
 const userSchema=mongoose.Schema({
     name:{

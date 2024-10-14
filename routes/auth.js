@@ -3,9 +3,10 @@ const User = require("../model/user");
 const validatePost = require("../signup/validate");
 const bcrypt=require('bcrypt')
 const authRouter = express.Router();
-const jwt=require('jsonwebtoken')
+const jwt=require('jsonwebtoken');
+const auth = require("../middlewares/authenticateToken");
 
-authRouter.use("/signup", async (req, res) => {
+authRouter.post("/signup", async (req, res) => {
   try {
     validatePost(req);
     const { name, email, password, bag, wishlist } = req.body;
@@ -28,7 +29,7 @@ authRouter.use("/signup", async (req, res) => {
   }
 });
 
-authRouter.use("/login", async (req, res) => {
+authRouter.post("/login", async (req, res) => {
   try {
     
     const {email, password} = req.body;
@@ -44,15 +45,20 @@ authRouter.use("/login", async (req, res) => {
     if(!isValid){
         throw new Error('invalid password')
     }
-    const token= jwt.sign({_id:user._id},'classy')
+    const token= jwt.sign({_id:user._id},'classy',{expiresIn:'1d'})
 
-    res.cookie('token',token)
+    res.cookie('token',token,{expires:new Date(Date.now() + 24 * 60 * 60 * 1000)})
     
-
-    res.status(201).send({status:'logged in successfully',user});
+    console.log(token)
+    res.status(201).send({status:'logged in successfully',user,token});
   } catch (error) {
     res.send(error.message);
   }
 });
+
+authRouter.post('/logout',async(req,res)=>{
+    res.cookie('token','',{expires:new Date(0)})
+    res.send('logged out successfully')
+})
 
 module.exports = authRouter;
