@@ -16,8 +16,8 @@ import Bag from "../pages/Bag";
 import { useDispatch, useSelector } from "react-redux";
 
 const Navbar = () => {
-  const data = useSelector((state) => state?.data);
-  const searched = useSelector((store) => store?.searched);
+  const data = useSelector((store) => store.reducer.data);
+  const searched = useSelector((store) => store.reducer.searched);
   const dispatch = useDispatch();
   const loc = useLocation();
   const navigate = useNavigate();
@@ -41,26 +41,22 @@ const Navbar = () => {
   };
 
   const handleOptionChange = (event, newValue) => {
-    if (newValue) {
-      // Navigate to the desired route when an option is selected
+    const formattedValue = newValue?.split(" ").join("_") + "-"; // Format for route if needed
 
-      const formattedValue = newValue.split(" ").join("_") + "-"; // Format for route if needed
+    const filterBrand = searched.filter((x) =>
+      x.models.some((model) => model.includes(newValue))
+    );
 
-      const filterBrand = searched.filter((x) =>
-        x.models.some((model) => model.includes(newValue))
-      );
+    const locType = loc.pathname?.split("/");
 
-      const locType = loc?.pathname?.split("/");
+    const og = locType?.filter((x) => x.includes("cases"));
 
-      const og = locType.filter((x) => x.includes("cases"));
+    const type = og?.length > 0 ? og[0] : "Glass-cases";
 
-      const type = og.length > 0 ? og[0] : "Glass-cases";
-
-      const format = formattedValue.concat(type.split("-")[0] + "-Case");
-      navigate(`/product-category/${type}/${filterBrand[0].brand}/${format}`);
-    }
+    const format = formattedValue.concat(type.split("-")[0] + "-Case");
+    navigate(`/product-category/${type}/${filterBrand[0].brand}/${format}`);
   };
-  //console.log(loc.pathname)
+
   const debouncedHandleChange = debouncing(handleChange, 2000);
 
   return (
@@ -112,7 +108,7 @@ const Navbar = () => {
             <Grid item>
               <Autocomplete
                 freeSolo
-                options={searched?.flatMap((x) => x.models) || []} // Flatmap to return array of models
+                options={searched.flatMap((x) => x.models) || []} // Flatmap to return array of models
                 onInputChange={debouncedHandleChange}
                 onChange={handleOptionChange}
                 renderInput={(params) => (

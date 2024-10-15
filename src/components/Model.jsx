@@ -6,7 +6,7 @@ import EmptyData from "./EmptyData";
 
 const Model = () => {
   const [models, setModels] = useState([]);
-  const data = useSelector((store) => store?.data);
+  const data = useSelector((store) => store.reducer?.data);
 
   const params = useParams();
   const type = params.type.split("-")[0] + " Case";

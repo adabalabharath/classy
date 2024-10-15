@@ -37,5 +37,7 @@ export const reducer=(state=initial,action)=>{
                  ...state,
                 searched:[]
             }
+        default:
+            return state
     }
 }

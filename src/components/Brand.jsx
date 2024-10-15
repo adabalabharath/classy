@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import EmptyData from "./EmptyData";
 
 const Brand = () => {
-  const data = useSelector((store) => store?.data);
+  const data = useSelector((store) => store.reducer?.data);
   const [brands, setBrands] = useState([]);
   const params = useParams();
   const type = params.type.split("-")[0] + " Case";

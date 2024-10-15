@@ -5,9 +5,9 @@ import Bag from "../pages/Bag";
 import Home from "../pages/Home";
 import Brand from "./Brand";
 import Model from './Model'
-import Cases from "./Cases";
 import Product from "./Product";
 import EmptyData from "./EmptyData";
+import Cases from "./Cases";
 
 const Allroutes = () => {
   return (

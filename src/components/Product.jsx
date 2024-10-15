@@ -1,28 +1,51 @@
 import { Button, Card, Divider, Grid, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
-import { useLocation, useParams } from "react-router-dom";
+import React, { useContext, useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
 import EmptyData from "./EmptyData";
 import Note from "./Note";
 import Counter from "./Counter";
+import { context } from "../context/ContextProvider";
+import { addToBag } from "../backRedux/action";
 
 const Product = () => {
-  const data = useSelector((store) => store?.data);
+  const data = useSelector((store) => store?.reducer?.data);
   const [product, setProduct] = useState(null);
   const params = useParams();
+  const dispatch = useDispatch();
+  const nav = useNavigate();
+  const { count } = useContext(context);
+  const token = localStorage.getItem("token");
 
   const fetchPro = () => {
-    let getBrand = data
-      ?.filter((x) => x.brand === params.brand)[0]
-      [params.type].find((y) => y.name === params.case);
-    setProduct(getBrand);
+    let getBrand = data?.filter((x) => x?.brand === params?.brand)[0];
+    if (getBrand) {
+      let gb = getBrand[params.type].find((y) => y.name === params.case);
+      setProduct(gb);
+    }
+  };
+
+  const addBag = (item) => {
+    if (token) {
+      dispatch(addToBag(item));
+    } else {
+      nav("/account");
+    }
+  };
+
+  const handleBuy = () => {
+    if (token) {
+      return <h1>good job u got this</h1>;
+    } else {
+      nav("/account");
+    }
   };
   useEffect(() => {
     fetchPro();
-  }, [data]);
+  }, [data, params.type, params.brand, params.case]);
 
-  if (!data) {
+  if (!data || !product) {
     return <EmptyData />;
   }
   return (
@@ -75,7 +98,7 @@ const Product = () => {
                     <Grid item>
                       <Typography variant="h6" color="success">
                         {`${"\u20B9"}
-                    ${product?.price * 10}`}
+                    ${product?.price * 10 * count}`}
                         .00
                       </Typography>
                     </Grid>
@@ -94,12 +117,16 @@ const Product = () => {
             <Grid item>
               <Grid container spacing={1}>
                 <Grid item>
-                  <Button variant="contained" color="success">
+                  <Button
+                    variant="contained"
+                    color="success"
+                    onClick={() => addBag(product)}
+                  >
                     Add to Bag
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="contained" color="error">
+                  <Button variant="contained" color="error" onClick={handleBuy}>
                     Buy now
                   </Button>
                 </Grid>

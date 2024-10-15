@@ -7,44 +7,52 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
-import { Link, useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import Note from "./Note";
 import EmptyData from "./EmptyData";
+import { addToBag } from "../backRedux/action";
 
 const Cases = () => {
-  const data = useSelector((store) => store?.data);
+  const data = useSelector((store) => store.reducer.data);
   const [mode, setMode] = useState([]);
   const params = useParams();
   const type = params.type.split("-").join("_").toLowerCase();
   const brand = params.brand;
   const modal = params.case.split("-")[0].split("_").join(" ");
-
+  const dispatch=useDispatch()
+  const nav=useNavigate()
   // const caseData=()=>{
   //     let b=data?.filter(x=>x.type===type)
   //     .filter(y=>Object.keys(y.availableIn).includes(brand))
   //     .filter((a)=>a.availableIn[brand].includes(modal.split('_').join(' ')))
   //     setMode(b)
   // }
-
-   
+  const token=localStorage.getItem('token')
+ 
+  const addBag=(item)=>{
+    if(token) {
+      dispatch(addToBag(item))
+    }else{
+      nav('/account')
+    }
+  }
 
   useEffect(() => {
-   
-      let branded = data?.filter((x) => x.brand === brand);
-        if(branded?.length>0)
-        setMode(branded[0][type]);
-      
-    
-  }, [data,brand]);
-  if(!data){
-       return <EmptyData/>
-    }
+    let branded = data.filter((x) => x.brand === brand);
+    if (branded.length > 0){setMode(branded[0][type])};
+  }, [brand]);
+
+
+  if (!data) {
+    return <EmptyData />;
+  }
+
   return (
     <>
       <Note />
-      <Grid container m={1} justifyContent={"center"} >
-        {mode?.map((x, index) => (
+      <Grid container m={1} justifyContent={"center"}>
+        {mode.map((x, index) => (
           <Grid item sx={{ m: 2 }} xs={2} key={index}>
             <Card>
               <Grid
@@ -58,7 +66,9 @@ const Cases = () => {
               >
                 <Grid item>
                   <Link
-                    to={`/${type}/${brand}/${modal.split(" ").join("")}/${x.name}`}
+                    to={`/${type}/${brand}/${modal.split(" ").join("")}/${
+                      x.name
+                    }`}
                   >
                     <CardMedia
                       component={"img"}
@@ -94,7 +104,7 @@ const Cases = () => {
                 </Grid>
 
                 <Grid item>
-                  <Button variant="contained" color="error">
+                  <Button variant="contained" color="error" onClick={()=>addBag(x)}>
                     Add to Bag
                   </Button>
                 </Grid>

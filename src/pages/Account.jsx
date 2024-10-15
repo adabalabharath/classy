@@ -9,10 +9,12 @@ import {
 import axios from "axios";
 import React, { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+import { useDispatch, useSelector } from "react-redux";
+import { loginUser } from "../backRedux/action";
+import LoggedIn from "../components/LoggedIn";
 const Account = () => {
   const [captchaVerified, setCaptchaVerified] = useState(false);
-  const [post, setPost] = useState("");
-  const [captcha, setCaptcha] = useState(false);
+  const [loginStat, setLoginStat] = useState("");
   const [login, setLogin] = useState({
     email: "",
     password: "",
@@ -23,6 +25,11 @@ const Account = () => {
     email: "",
     password: "",
   });
+  const user = useSelector((store) => store?.bagReducer?.user);
+
+  const token = localStorage.getItem("token");
+
+  const dispatch = useDispatch();
 
   const siteKey = "6Ld2IFoqAAAAAKI0ZNbnBKLdgVPlOb6be8f-4xv5";
 
@@ -47,9 +54,7 @@ const Account = () => {
   const handleClick = async () => {
     try {
       if (captchaVerified && login.email && login.password) {
-        let post = await axios.post("http://localhost:7777/login", login);
-        setPost(post.data);
-        console.log(post.data);
+        dispatch(loginUser(login));
       } else {
         alert("captcha is not verified");
       }
@@ -67,7 +72,9 @@ const Account = () => {
         register.name
       ) {
         let post = await axios.post("http://localhost:7777/signup", register);
-        console.log(post.data);
+        setLoginStat(post.data.status);
+        setRegister((prev) => ({ ...prev, name: "", email: "", password: "" }));
+        setCaptchaVerified(false);
       } else {
         alert("captcha is not verified");
       }
@@ -75,6 +82,7 @@ const Account = () => {
       console.log(err.message);
     }
   };
+
   return (
     <Grid container justifyContent={"center"}>
       <Grid
@@ -93,97 +101,106 @@ const Account = () => {
         </Typography>
       </Grid>
 
-      <Grid item xs={5} p={4}>
-        <Grid container direction="column" spacing={2}>
-          <Typography variant="h6" fontWeight={"bold"}>
-            Login
-          </Typography>
-          <Grid item>
-            <TextField
-              label="Username or Email Address"
-              fullWidth
-              value={login.email}
-              name="email"
-              onChange={handleLogin}
-            />
+      {!token ? (
+        <>
+          <Grid item xs={5} p={4}>
+            <Grid container direction="column" spacing={2}>
+              <Typography variant="h6" fontWeight={"bold"}>
+                Login
+              </Typography>
+              <Grid item>
+                <TextField
+                  label="Username or Email Address"
+                  fullWidth
+                  value={login.email}
+                  name="email"
+                  onChange={handleLogin}
+                />
+              </Grid>
+              <Grid item>
+                <TextField
+                  label="password"
+                  fullWidth
+                  value={login.password}
+                  name="password"
+                  onChange={handleLogin}
+                />
+              </Grid>
+              <Grid item>
+                <Typography variant="subtitle2">Captcha</Typography>
+                <ReCAPTCHA
+                  sitekey={siteKey}
+                  onChange={(value) =>
+                    value ? setCaptchaVerified(true) : setCaptchaVerified(false)
+                  }
+                />
+              </Grid>
+              <Grid item>
+                <Button variant="contained" color="error" onClick={handleClick}>
+                  Login
+                </Button>
+              </Grid>
+            </Grid>
           </Grid>
-          <Grid item>
-            <TextField
-              label="password"
-              fullWidth
-              value={login.password}
-              name="password"
-              onChange={handleLogin}
-            />
+          <Divider
+            orientation="vertical"
+            sx={{ mx: 2, height: "400px", borderWidth: "2px", m: 1 }}
+          />
+          <Grid item xs={5} p={4}>
+            <Grid container direction="column" spacing={2}>
+              <Typography variant="h6" fontWeight={"bold"}>
+                Register
+              </Typography>
+              <Grid item>
+                <TextField
+                  label="Username"
+                  fullWidth
+                  value={register.name}
+                  name="name"
+                  onChange={handleRegister}
+                />
+              </Grid>
+              <Grid item>
+                <TextField
+                  label="Email Address"
+                  fullWidth
+                  value={register.email}
+                  name="email"
+                  onChange={handleRegister}
+                />
+              </Grid>
+              <Grid item>
+                <TextField
+                  label="password"
+                  fullWidth
+                  value={register.password}
+                  name="password"
+                  onChange={handleRegister}
+                />
+              </Grid>
+              <Grid item>
+                <Typography variant="subtitle2">Captcha</Typography>
+                <ReCAPTCHA sitekey={siteKey} onChange={onCaptchaChange} />
+              </Grid>
+              <Grid item display="flex" flexDirection={"column"}>
+                <Typography variant="caption" color="error">
+                  {loginStat}
+                </Typography>
+                <Button
+                  variant="contained"
+                  color="error"
+                  size="small"
+                  onClick={handleClickRegister}
+                >
+                  Register
+                </Button>
+              </Grid>
+            </Grid>
           </Grid>
-          <Grid item>
-            <Typography variant="subtitle2">Captcha</Typography>
-            <ReCAPTCHA
-              sitekey={siteKey}
-              onChange={(value) =>
-                value ? setCaptchaVerified(true) : setCaptchaVerified(false)
-              }
-            />
-          </Grid>
-          <Grid item>
-            <Button variant="contained" color="error" onClick={handleClick}>
-              Login
-            </Button>
-          </Grid>
-        </Grid>
-      </Grid>
-      <Divider
-        orientation="vertical"
-        sx={{ mx: 2, height: "400px", borderWidth: "2px", m: 1 }}
-      />
-      <Grid item xs={5} p={4}>
-        <Grid container direction="column" spacing={2}>
-          <Typography variant="h6" fontWeight={"bold"}>
-            Register
-          </Typography>
-          <Grid item>
-            <TextField
-              label="Username"
-              fullWidth
-              value={register.name}
-              name="name"
-              onChange={handleRegister}
-            />
-          </Grid>
-          <Grid item>
-            <TextField
-              label="Email Address"
-              fullWidth
-              value={register.email}
-              name="email"
-              onChange={handleRegister}
-            />
-          </Grid>
-          <Grid item>
-            <TextField
-              label="password"
-              fullWidth
-              value={register.password}
-              name="password"
-              onChange={handleRegister}
-            />
-          </Grid>
-          <Grid item>
-            <Typography variant="subtitle2">Captcha</Typography>
-            <ReCAPTCHA sitekey={siteKey} onChange={onCaptchaChange} />
-          </Grid>
-          <Grid item>
-            <Button
-              variant="contained"
-              color="error"
-              disabled={post.status === "logged in successfully"}
-              onClick={handleClickRegister}
-            >
-              Register
-            </Button>
-          </Grid>
-        </Grid>
-      </Grid>
+        </>
+      ) : (
+        <LoggedIn />
+      )}
     </Grid>
   );
 };
