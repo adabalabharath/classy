@@ -23,7 +23,7 @@ const Bag = () => {
     <>
       <Tooltip title="Bag">
         <IconButton onClick={() => setDrawerOpen(true)}>
-          <Badge badgeContent={bag?.bag.length} sx={{ color: "skyblue" }}>
+          <Badge badgeContent={bag?.bag.reduce((a,b)=>a+b.count,0)} sx={{ color: "skyblue" }}>
             <LocalMallIcon sx={{ color: "skyblue" }} />
           </Badge>
         </IconButton>

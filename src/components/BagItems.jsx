@@ -18,49 +18,62 @@ import { removeBag } from "../backRedux/action";
 const BagItems = ({ setTot }) => {
   const user = useSelector((store) => store.bagReducer?.user.user);
   const [total, setTotal] = useState(0);
-  const initialCountItems =
-    JSON.parse(localStorage.getItem("countItems")) ||
-    new Array(user?.bag?.length).fill(1);
-  const [count, setCount] = useState(initialCountItems);
+
   const [checkedItems, setCheckedItems] = useState(
     new Array(user?.bag?.length).fill(true)
   );
   const dispatch = useDispatch();
+
   const handleCheckboxChange = (index, e) => {
-    // Create a copy of the checkedItems array and update the specific index
     const updatedCheckedItems = [...checkedItems];
     updatedCheckedItems[index] = !updatedCheckedItems[index];
     setCheckedItems(updatedCheckedItems);
-    let priceOnCount = user.bag[index].price * 10 * count[index];
-    if (e.target.checked === false) {
-      setTotal(total - priceOnCount);
+    let priceOnCount = user.bag[index].price * 10 * user.bag[index].count;
+    if (!e.target.checked) {
+      setTotal((prev) => {
+        const newTotal = prev - priceOnCount;
+        setTot(newTotal); // Pass updated total to the parent
+        return newTotal;
+      });
     } else {
-      setTotal(total + priceOnCount);
+      setTotal((prev) => {
+        const newTotal = prev + priceOnCount;
+        setTot(newTotal); // Pass updated total to the parent
+        return newTotal;
+      });
     }
   };
 
   const handleCount = (index, c) => {
-    const updatedCount = [...count];
-
-    updatedCount[index] = updatedCount[index] + c;
-    if (updatedCount[index] !== 0) {
-      setCount(updatedCount);
-      const updatedPrices = user?.bag?.map(
-        (item, index) => item.price * updatedCount[index] * 10
-      );
-      setTotal(updatedPrices.reduce((x, y) => x + y, 0));
+    let cInc = user.bag[index].count + c;
+    if (cInc !== 0) {
+      dispatch(removeBag(user.bag[index].name, "count", cInc));
+    }
+    const priceDifference = c * user.bag[index].price * 10;
+    if (checkedItems[index]) {
+      setTotal((prevTotal) => prevTotal + priceDifference);
+      setTot((prevTotal) => prevTotal + priceDifference);
     }
   };
 
   const handleRemove = (name) => {
-    dispatch(removeBag(name));
+    dispatch(removeBag(name, "remove"));
   };
 
   useEffect(() => {
-    localStorage.setItem("countItems", JSON.stringify(count));
-    setTotal(user.bag.reduce((a, b) => a + b.count * b.price * 10, 0));
-  }, [count, user]);
-  setTot(total);
+    // Calculate total for only the checked items
+    const initialTotal = user.bag.reduce((acc, item, index) => {
+      if (checkedItems[index]) {
+        return acc + item.price * 10 * item.count;
+      }
+      return acc;
+    }, 0);
+    setTotal(initialTotal);
+    setTot(initialTotal); // Set initial total in parent
+  }, [user.bag, checkedItems, setTot]);
+
+  console.log(total);
+
   return (
     <>
       <Grid container direction="column">
@@ -109,7 +122,7 @@ const BagItems = ({ setTot }) => {
                 <CardContent>
                   <Typography variant="subtitle2">{x?.name}</Typography>
                   <Typography variant="caption" color="success">
-                    Price :{`${x.price * 10}` * `${count[index]}`}/-
+                    Price :{`${x.price * 10}` * `${x.count}`}/-
                   </Typography>
                 </CardContent>
               </Grid>
@@ -118,9 +131,10 @@ const BagItems = ({ setTot }) => {
                   size="small"
                   variant="contained"
                   sx={{ "& .MuiButton-root": { minWidth: 32, padding: "0px" } }}
+                  disabled={checkedItems[index] === false}
                 >
                   <Button onClick={() => handleCount(index, -1)}>
-                    {count[index] == 1 ? (
+                    {x.count == 1 ? (
                       <Tooltip title="Delete item">
                         <DeleteOutlineIcon
                           fontSize="small"
@@ -131,7 +145,7 @@ const BagItems = ({ setTot }) => {
                       "-"
                     )}
                   </Button>
-                  <Button>{count[index]}</Button>
+                  <Button>{x.count}</Button>
                   <Button onClick={() => handleCount(index, +1)}>+</Button>
                 </ButtonGroup>
               </Grid>

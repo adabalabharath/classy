@@ -26,7 +26,7 @@ export const logoutUser = async (dispatch) => {
     dispatch({ type: "LOGOUT" });
   } catch (err) {
     dispatch({ type: USER_FAILURE });
-    alert("couldnt logout");
+    alert("couldnt logout",err.msg);
   }
 };
 
@@ -45,9 +45,12 @@ export const addToBag = (item) => async (dispatch) => {
   }
 };
 
-export const removeBag = (name) => async (dispatch) => {
+export const removeBag = (name,type,count) => async (dispatch) => {
   try {
-    let post = await axios.delete(`http://localhost:7777/remove/${name}`, {
+    const url = count
+      ? `http://localhost:7777/${type}/${name}/${count}`
+      : `http://localhost:7777/${type}/${name}`;
+    let post = await axios.patch(url,{}, {
       withCredentials: true,
     });
     if (post.data.user) {
@@ -55,6 +58,6 @@ export const removeBag = (name) => async (dispatch) => {
     }
   } catch (err) {
     dispatch({ type: USER_FAILURE });
-    alert("couldnt remove : ", err.message);
+    console.log("couldnt remove : ", err.message);
   }
 };
