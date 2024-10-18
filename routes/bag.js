@@ -9,14 +9,13 @@ bagRouter.post("/addbag", auth, async (req, res) => {
     await loggedUser.save();
     res.send({ status: "added to bag", user: loggedUser });
   } catch (error) {
-    res.send({ status: error.message });
+    res.status(401).send( error.message );
   }
 });
 
 bagRouter.patch("/:call/:case/:count?", auth, async (req, res) => {
   try {
     const name = req.params.case;
-    console.log(name)
     const user = req.user;
     const count = req.params.count 
     const validCalls = ['remove', 'count'];

@@ -25,7 +25,7 @@ authRouter.post("/signup", async (req, res) => {
       user,
     });
   } catch (error) {
-    res.send({ status: error.message });
+   res.status(401).send( error.message );
   }
 });
 
@@ -50,10 +50,9 @@ authRouter.post("/login", async (req, res) => {
       expires: new Date(Date.now() + 24 * 60 * 60 * 1000),
     });
 
-    console.log(token);
     res.status(201).send({ status: "logged in successfully", user, token });
   } catch (error) {
-    res.send({ status: error.message });
+    res.status(401).send( error.message );
   }
 });
 
