@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const EmptyBag = () => {
   const bag = useSelector((store) => store.bagReducer.user.user);
-  const token = localStorage.getItem("token");
   return (
     <Grid
       container
@@ -31,7 +30,7 @@ const EmptyBag = () => {
         <Typography variant="subtitle2">
           you dont have any items in ur bag
         </Typography>
-        {!token && (
+        {!bag && (
           <Link to="/account">
             <Button variant="contained">Login to add items</Button>
           </Link>

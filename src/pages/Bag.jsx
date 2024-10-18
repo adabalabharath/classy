@@ -18,7 +18,7 @@ const Bag = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [total,setTotal]=useState()
   const bag = useSelector((store) => store.bagReducer.user?.user);
-  const token = localStorage.getItem("token");
+
   return (
     <>
       <Tooltip title="Bag">
@@ -42,7 +42,7 @@ const Bag = () => {
             />
           </Grid>
           <Grid item>
-            {!token || bag?.bag.length == 0 ? <EmptyBag /> : <BagItems setTot={setTotal}/>}
+            {bag?.bag.length == 0 ? <EmptyBag /> : <BagItems setTot={setTotal}/>}
           </Grid>
           <Grid item>
             { !bag?.bag.length == 0 && <Button variant="contained" fullWidth disabled={total==0}>

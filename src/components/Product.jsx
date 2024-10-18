@@ -11,12 +11,13 @@ import { addToBag } from "../backRedux/action";
 
 const Product = () => {
   const data = useSelector((store) => store?.reducer?.data);
+  const user = useSelector((store) => store?.bagReducer?.user.user);
   const [product, setProduct] = useState(null);
   const params = useParams();
   const dispatch = useDispatch();
   const nav = useNavigate();
   const { count } = useContext(context);
-  const token = localStorage.getItem("token");
+  
 
   const fetchPro = () => {
     let getBrand = data?.filter((x) => x?.brand === params?.brand)[0];
@@ -27,7 +28,7 @@ const Product = () => {
   };
 
   const addBag = (item) => {
-    if (token) {
+    if (user) {
       dispatch(addToBag(item));
     } else {
       nav("/account");
@@ -35,7 +36,7 @@ const Product = () => {
   };
 
   const handleBuy = () => {
-    if (token) {
+    if (user) {
       return <h1>good job u got this</h1>;
     } else {
       nav("/account");

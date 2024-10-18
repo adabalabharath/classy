@@ -15,6 +15,8 @@ import { addToBag } from "../backRedux/action";
 
 const Cases = () => {
   const data = useSelector((store) => store.reducer.data);
+  const user = useSelector((store) => store.bagReducer.user.user);
+  console.log(user)
   const [mode, setMode] = useState([]);
   const params = useParams();
   const type = params.type.split("-").join("_").toLowerCase();
@@ -28,10 +30,10 @@ const Cases = () => {
   //     .filter((a)=>a.availableIn[brand].includes(modal.split('_').join(' ')))
   //     setMode(b)
   // }
-  const token=localStorage.getItem('token')
+  
  
   const addBag=(item)=>{
-    if(token) {
+    if(user) {
       dispatch(addToBag(item))
     }else{
       nav('/account')

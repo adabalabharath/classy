@@ -9,14 +9,15 @@ import {
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { logoutUser } from "../backRedux/action";
+import { useNavigate } from "react-router-dom";
 
 const LoggedIn = () => {
   const user = useSelector((store) => store?.bagReducer?.user?.user);
   const dispatch = useDispatch();
-
+  const navigate=useNavigate()
   const logout = async () => {
-    localStorage.removeItem("token");
     dispatch(logoutUser);
+    navigate('/account')
   };
 
   return (

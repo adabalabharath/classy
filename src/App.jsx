@@ -10,8 +10,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchData } from "./redux/action";
 
 function App() {
-  const [count, setCount] = useState(0);
-  
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchData);
@@ -20,8 +18,7 @@ function App() {
     <>
       <Navbar />
       <Allroutes />
-      <News />
-       
+      <News />       
       <Thanks />
       <About />
     </>

@@ -25,9 +25,9 @@ const Account = () => {
     email: "",
     password: "",
   });
-  const user = useSelector((store) => store?.bagReducer?.user);
+  const user = useSelector((store) => store?.bagReducer?.user?.user);
 
-  const token = localStorage.getItem("token");
+  
 
   const dispatch = useDispatch();
 
@@ -55,6 +55,7 @@ const Account = () => {
     try {
       if (captchaVerified && login.email && login.password) {
         dispatch(loginUser(login));
+        setLogin('')
       } else {
         alert("captcha is not verified");
       }
@@ -73,7 +74,7 @@ const Account = () => {
       ) {
         let post = await axios.post("http://localhost:7777/signup", register);
         setLoginStat(post.data.status);
-        setRegister((prev) => ({ ...prev, name: "", email: "", password: "" }));
+        setRegister('');
         setCaptchaVerified(false);
       } else {
         alert("captcha is not verified");
@@ -101,7 +102,7 @@ const Account = () => {
         </Typography>
       </Grid>
 
-      {!token ? (
+      {!user ? (
         <>
           <Grid item xs={5} p={4}>
             <Grid container direction="column" spacing={2}>

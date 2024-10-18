@@ -72,7 +72,7 @@ const BagItems = ({ setTot }) => {
     setTot(initialTotal); // Set initial total in parent
   }, [user.bag, checkedItems, setTot]);
 
-  console.log(total);
+
 
   return (
     <>

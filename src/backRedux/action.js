@@ -7,7 +7,6 @@ export const loginUser = (creds) => async (dispatch) => {
       withCredentials: true,
     });
     if (post.data.user) {
-      localStorage.setItem("token", post.data.token);
       dispatch({ type: LOGIN_SUCCESS, payload: post.data });
     } else {
       dispatch({ type: LOGIN_FAILURE });
