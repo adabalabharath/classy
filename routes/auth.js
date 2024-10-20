@@ -52,7 +52,7 @@ authRouter.post("/login", async (req, res) => {
 
     res.status(201).send({ status: "logged in successfully", user, token });
   } catch (error) {
-    res.status(401).send( error.message );
+    res.status(404).send( error.message );
   }
 });
 
