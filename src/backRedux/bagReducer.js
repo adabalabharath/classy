@@ -53,6 +53,11 @@ export const bagReducer = (state = initialState, action) => {
         error: false,
         user: action.payload,
       };
+    case "BAG_FAILURE":
+      return {
+        ...state,
+        error: true,
+      };
     case "ADD_COUNT":
       return {
         ...state,

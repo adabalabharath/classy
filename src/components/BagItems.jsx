@@ -10,16 +10,18 @@ import {
   Tooltip,
   Typography,
 } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import CloseIcon from "@mui/icons-material/Close";
 import { removeBag } from "../backRedux/action";
 import EmptyBag from "./EmptyBag";
+import { context } from "../context/ContextProvider";
 const BagItems = ({ setTot }) => {
   const user = useSelector((store) => store.bagReducer?.user.user);
   const [total, setTotal] = useState(0);
-
+  const {setOpenSnackbar}=useContext(context)
+  setOpenSnackbar(false)
   const [checkedItems, setCheckedItems] = useState(
     new Array(user?.bag?.length).fill(true)
   );
@@ -71,6 +73,7 @@ const BagItems = ({ setTot }) => {
     }, 0);
     setTotal(initialTotal);
     setTot(initialTotal); // Set initial total in parent
+    
   }, [user?.bag, checkedItems, setTot]);
 
   if(!user){

@@ -1,5 +1,6 @@
 import axios from "axios";
 import { LOGIN_FAILURE, LOGIN_SUCCESS, USER_FAILURE } from "./actionType";
+import { Alert } from "@mui/material";
 
 export const loginUser = (creds) => async (dispatch) => {
   try {
@@ -25,7 +26,7 @@ export const logoutUser = async (dispatch) => {
     dispatch({ type: "LOGOUT" });
   } catch (err) {
     dispatch({ type: USER_FAILURE });
-    alert("couldnt logout",err.msg);
+    alert("couldnt logout", err.msg);
   }
 };
 
@@ -36,27 +37,29 @@ export const addToBag = (item) => async (dispatch) => {
     });
     if (post.data.user) {
       dispatch({ type: "ADD_BAG", payload: post.data });
-      alert("Item added to Bag");
+      
     }
   } catch (err) {
-    dispatch({ type: USER_FAILURE });
-    alert("couldnt add : ", err.message);
+    dispatch({ type: 'BAG_FAILURE' });
   }
 };
 
-export const removeBag = (name,type,count) => async (dispatch) => {
+export const removeBag = (name, type, count) => async (dispatch) => {
   try {
     const url = count
       ? `http://localhost:7777/${type}/${name}/${count}`
       : `http://localhost:7777/${type}/${name}`;
-    let post = await axios.patch(url,{}, {
-      withCredentials: true,
-    });
+    let post = await axios.patch(
+      url,
+      {},
+      {
+        withCredentials: true,
+      }
+    );
     if (post.data.user) {
       dispatch({ type: "REMOVE_BAG", payload: post.data });
     }
   } catch (err) {
-    dispatch({ type: USER_FAILURE });
     console.log("couldnt remove : ", err.message);
   }
 };

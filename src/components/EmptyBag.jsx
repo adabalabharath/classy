@@ -1,10 +1,13 @@
 import { Button, Grid, Typography } from "@mui/material";
-import React from "react";
+import React, { useContext } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { context } from "../context/ContextProvider";
 
 const EmptyBag = () => {
   const bag = useSelector((store) => store.bagReducer.user.user);
+   const {setOpenSnackbar}=useContext(context)
+   setOpenSnackbar(false)
   return (
     <Grid
       container
