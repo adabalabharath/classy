@@ -15,6 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import CloseIcon from "@mui/icons-material/Close";
 import { removeBag } from "../backRedux/action";
+import EmptyBag from "./EmptyBag";
 const BagItems = ({ setTot }) => {
   const user = useSelector((store) => store.bagReducer?.user.user);
   const [total, setTotal] = useState(0);
@@ -62,7 +63,7 @@ const BagItems = ({ setTot }) => {
 
   useEffect(() => {
     // Calculate total for only the checked items
-    const initialTotal = user.bag.reduce((acc, item, index) => {
+    const initialTotal = user?.bag.reduce((acc, item, index) => {
       if (checkedItems[index]) {
         return acc + item.price * 10 * item.count;
       }
@@ -70,9 +71,11 @@ const BagItems = ({ setTot }) => {
     }, 0);
     setTotal(initialTotal);
     setTot(initialTotal); // Set initial total in parent
-  }, [user.bag, checkedItems, setTot]);
+  }, [user?.bag, checkedItems, setTot]);
 
-
+  if(!user){
+    return <EmptyBag/>
+  }
 
   return (
     <>
