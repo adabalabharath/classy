@@ -75,7 +75,7 @@ const Navbar = () => {
             <CardMedia
               component={"img"}
               image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulolMn77hUDecdJfS8JqcaalpxSz4QfK1Ww&s"
-              sx={{ width: "200px" }}
+              sx={{ maxWidth: "200px" }}
             />
           </Link>
         </Grid>
@@ -90,7 +90,7 @@ const Navbar = () => {
             <CardMedia
               component={"img"}
               image="https://th.bing.com/th/id/OIP.oVGJIdgpUmcEg2_vXZSkJwHaGO?w=215&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-              sx={{ width: "300px" }}
+              sx={{ width: "250px" }}
               height={"60px"}
             />
             <Typography

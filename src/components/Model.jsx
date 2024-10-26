@@ -34,11 +34,11 @@ const Model = () => {
     }
 
   return (
-    <Grid container direction={"row"} m={3} spacing={3}>
+    <Grid container direction={"row"} my={3} spacing={3}>
       {models?.map((x) => {
         return (
           <>
-            <Grid item xs={4}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
               <Link
                 to={`/product-category/${params.type}/${params.model}/${
                   x.split(" ").join("_") + "-" + type.split(" ").join("-")
@@ -46,7 +46,7 @@ const Model = () => {
               >
                 <Button
                   variant="contained"
-                  sx={{ width: "300px", height: "100px" }}
+                  sx={{ width: "100%", height: "100px" }}
                 >
                   {x}
                 </Button>

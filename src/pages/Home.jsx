@@ -38,7 +38,7 @@ const Home = () => {
         {type.map((x) => {
           return (
             <>
-              <Grid item xs={4}>
+              <Grid item xs={12} sm={6} md={3} lg={4}>
                 <Grid container direction="column" alignItems={"center"}>
                   <Grid item>
                     <Link to={`/product-category/${x.type}`}>

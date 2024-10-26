@@ -54,19 +54,20 @@ const Product = () => {
       <Note />
       <Grid
         container
+        my={3}
         p={2}
         spacing={3}
         justifyContent={"space-evenly"}
         height="100%"
       >
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <Card
             sx={{ display: "flex", justifyContent: "center", height: "600px" }}
           >
             <img src={product?.imageURL} />
           </Card>
         </Grid>
-        <Grid item xs={6} height={"600px"}>
+        <Grid item xs={12} md={6} height={"600px"}>
           <Typography variant="caption">
             shop /{params.type} /{params.brand}
           </Typography>
@@ -171,13 +172,13 @@ const Product = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item>
+        <Grid item sx={{display:{xs:'none',lg:'block'}}}>
           <img src="https://stayclassy.in/wp-content/uploads/2020/04/Discretion-1-min-2.jpg" />
         </Grid>
-        <Grid item>
+        <Grid item sx={{display:{xs:'none',lg:'block'}}}>
           <img src="https://stayclassy.in/wp-content/uploads/2020/04/Discretion-3-min-1.jpg" />
         </Grid>
-        <Grid item>
+        <Grid item sx={{display:{xs:'none',lg:'block'}}}>
           <img src="https://stayclassy.in/wp-content/uploads/2020/04/Glass-Case-Review-2-min-1.jpg" />
         </Grid>
       </Grid>

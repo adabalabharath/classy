@@ -5,6 +5,7 @@ import {
   Grid,
   TextField,
   Typography,
+  useMediaQuery,
 } from "@mui/material";
 import axios from "axios";
 import React, { useState } from "react";
@@ -12,6 +13,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { useDispatch, useSelector } from "react-redux";
 import { loginUser } from "../backRedux/action";
 import LoggedIn from "../components/LoggedIn";
+import { useTheme } from "@emotion/react";
 const Account = () => {
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [loginStat, setLoginStat] = useState("");
@@ -27,7 +29,8 @@ const Account = () => {
   });
   const user = useSelector((store) => store?.bagReducer?.user?.user);
 
-  
+  const theme = useTheme(); // Access the theme
+  const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"));
 
   const dispatch = useDispatch();
 
@@ -104,7 +107,7 @@ const Account = () => {
 
       {!user ? (
         <>
-          <Grid item xs={5} p={4}>
+          <Grid item xs={12} md={12} sm={12} lg={5} p={4}>
             <Grid container direction="column" spacing={2}>
               <Typography variant="h6" fontWeight={"bold"}>
                 Login
@@ -143,11 +146,11 @@ const Account = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Divider
+          {isLargeScreen && <Divider
             orientation="vertical"
             sx={{ mx: 2, height: "400px", borderWidth: "2px", m: 1 }}
-          />
-          <Grid item xs={5} p={4}>
+          />}
+          <Grid item xs={12} md={12} sm={12} lg={5} p={4}>
             <Grid container direction="column" spacing={2}>
               <Typography variant="h6" fontWeight={"bold"}>
                 Register

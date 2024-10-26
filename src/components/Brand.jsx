@@ -36,15 +36,15 @@ const Brand = () => {
     }
 
   return (
-    <Grid container direction={"row"} m={3} spacing={3}>
+    <Grid container direction={"row"} my={3} spacing={3}>
       {brands?.map((x,index) => {
         return (
           <>
-            <Grid item xs={4} key={index}>
+            <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
               <Link to={`/product-category/${params.type}/${x}`}>
                 <Button
                   variant="contained"
-                  sx={{ width: "300px", height: "100px" }}
+                  sx={{ width: "100%", height: "100px" }}
                 >
                   {x}
                 </Button>
