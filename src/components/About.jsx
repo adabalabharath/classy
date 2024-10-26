@@ -22,40 +22,38 @@ const About = () => {
   ];
 
   return (
-    <Grid container justifyContent={"space-evenly"} p={2} my={2}>
-      <Grid item>
+    <Grid container justifyContent={"space-between"} p={2} my={2} spacing={3}>
+      <Grid item xs={12} lg={3} md={4} sm={6}>
         <Grid container direction={"column"} spacing={2}>
           <Typography variant="subtitle2">Useful Links</Typography>
           <Divider
             sx={{ width: "30px", borderWidth: "2px", borderRadius: 1 }}
           />
-          {usefulLinks.map((x,index) => {
+          {usefulLinks.map((x, index) => {
             return (
               <Grid item xs={3} key={index}>
                 <Typography variant="subtitle2">{x}</Typography>
-                <Divider sx={{ width: "300px" }} />
               </Grid>
             );
           })}
         </Grid>
       </Grid>
-      <Grid item >
+      <Grid item xs={12} lg={3} md={4} sm={6}>
         <Grid container direction={"column"} spacing={2}>
           <Typography variant="subtitle2">Account</Typography>
           <Divider
             sx={{ width: "30px", borderWidth: "2px", borderRadius: 1 }}
           />
-          {Account.map((x,index) => {
+          {Account.map((x, index) => {
             return (
               <Grid item xs={3} key={index}>
                 <Typography variant="subtitle2">{x}</Typography>
-                <Divider sx={{ width: "300px" }} />
               </Grid>
             );
           })}
         </Grid>
       </Grid>
-      <Grid item>
+      <Grid item xs={12} lg={3} md={4} sm={6}>
         <Grid container direction={"column"} spacing={2}>
           <Typography variant="subtitle2">Help Center</Typography>
           <Divider
@@ -78,7 +76,7 @@ const About = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item>
+      <Grid item xs={12} lg={3} md={4} sm={6}>
         <Grid container direction={"column"} spacing={2}>
           <Typography variant="subtitle2">Registered Office Address</Typography>
           <Divider

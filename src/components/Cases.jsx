@@ -24,7 +24,7 @@ const Cases = () => {
   const [snackbarMessage, setSnackbarMessage] = useState(""); // Snackbar message
   const [snackbarSeverity, setSnackbarSeverity] = useState("success"); // Severity of the snackbar
   const [mode, setMode] = useState([]);
-    const [actionTriggered, setActionTriggered] = useState(false); // Flag to track if add action was triggered
+  const [actionTriggered, setActionTriggered] = useState(false); // Flag to track if add action was triggered
   const params = useParams();
   const type = params.type.split("-").join("_").toLowerCase();
   const brand = params.brand;
@@ -66,7 +66,7 @@ const Cases = () => {
         setSnackbarSeverity("success");
       }
     }
-  }, [user, error, actionTriggered])
+  }, [user, error, actionTriggered]);
   if (!data) {
     return <EmptyData />;
   }
@@ -75,9 +75,9 @@ const Cases = () => {
     <>
       <Note />
 
-      <Grid container m={1} justifyContent={"center"}>
+      <Grid container spacing={2} justifyContent={"center"}>
         {mode.map((x, index) => (
-          <Grid item sx={{ m: 2 }} xs={2} key={index}>
+          <Grid item sm={6} md={4} lg={2.2} key={index}>
             <Card>
               <Grid
                 container
@@ -85,8 +85,8 @@ const Cases = () => {
                 direction="column"
                 justifyContent="center"
                 alignItems={"center"}
-                spacing={2}
-                p={1}
+                spacing={1}
+                py={1}
               >
                 <Grid item>
                   <Link
@@ -97,7 +97,10 @@ const Cases = () => {
                     <CardMedia
                       component={"img"}
                       image={x.imageURL}
-                      sx={{ height: "50%" }}
+                      sx={{
+                        maxHeight: "200px", // Set to the desired height
+                        objectFit: "contain", // Keeps the entire image visible within the container
+                      }}
                     />
                   </Link>
                 </Grid>

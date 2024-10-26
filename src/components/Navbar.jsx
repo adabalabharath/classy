@@ -15,6 +15,8 @@ import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import Bag from "../pages/Bag";
 import { useDispatch, useSelector } from "react-redux";
 
+import Menu from "./Menu";
+
 const Navbar = () => {
   const data = useSelector((store) => store.reducer.data);
   const searched = useSelector((store) => store.reducer.searched);
@@ -60,7 +62,7 @@ const Navbar = () => {
   const debouncedHandleChange = debouncing(handleChange, 2000);
 
   return (
-    <Card>
+    <Card sx={{ width: "100%" }}>
       <Grid
         container
         direction={"row"}
@@ -78,7 +80,12 @@ const Navbar = () => {
           </Link>
         </Grid>
 
-        <Grid item>
+        <Grid
+          item
+          sx={{
+            display: { xs: "none", sm: "block", lg: "block", md: "block" },
+          }}
+        >
           <Box position={"relative"} display={"inline-block"}>
             <CardMedia
               component={"img"}
@@ -103,7 +110,10 @@ const Navbar = () => {
           </Box>
         </Grid>
 
-        <Grid item>
+        <Grid
+          item
+          display={{ lg: "block", sm: "none", xs: "none", md: "none" }}
+        >
           <Grid container alignItems="center" spacing={2}>
             <Grid item>
               <Autocomplete
@@ -132,6 +142,9 @@ const Navbar = () => {
               <Bag />
             </Grid>
           </Grid>
+        </Grid>
+        <Grid item sx={{ display: { xs: "block", lg: "none", md: "block" } }}>
+          <Menu />
         </Grid>
       </Grid>
     </Card>

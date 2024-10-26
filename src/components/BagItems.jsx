@@ -20,8 +20,8 @@ import { context } from "../context/ContextProvider";
 const BagItems = ({ setTot }) => {
   const user = useSelector((store) => store.bagReducer?.user.user);
   const [total, setTotal] = useState(0);
-  const {setOpenSnackbar}=useContext(context)
-  setOpenSnackbar(false)
+  const { setOpenSnackbar } = useContext(context);
+  setOpenSnackbar(false);
   const [checkedItems, setCheckedItems] = useState(
     new Array(user?.bag?.length).fill(true)
   );
@@ -73,11 +73,10 @@ const BagItems = ({ setTot }) => {
     }, 0);
     setTotal(initialTotal);
     setTot(initialTotal); // Set initial total in parent
-    
   }, [user?.bag, checkedItems, setTot]);
 
-  if(!user){
-    return <EmptyBag/>
+  if (!user) {
+    return <EmptyBag />;
   }
 
   return (
@@ -97,7 +96,7 @@ const BagItems = ({ setTot }) => {
       </Grid>
       {user?.bag?.map((x, index) => {
         return (
-          <Card key={index} sx={{ m: 1, maxWidth: "300px", p: 1 }}>
+          <Card key={index} sx={{ m: 1, maxWidth: "300px", p: 2 }}>
             <Grid
               container
               alignItems={"center"}
